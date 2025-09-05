@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>검색 | WZ</title>
+    <link rel="icon" type="image/png" href="source/image/favicon.png" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/layout.js" defer></script>
+    <script src="./js/search/search.js" defer></script>
+</head>
+<body>
+    <div class="main-layout-wrapper">
+       <header id="mainHeader" class="main-header-container">
+            <div class="logo-box">
+                <h1 class="logo">
+                    <a href="/home.html">
+                        <img src="./source/image/wz_logo.png" alt="logo">
+                    </a>
+                </h1>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="/category.html">카테고리</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/community.html">커뮤니티</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/store_wz.html">스토어</a>
+                </li>
+            </ul>
+            <div class="util-box">
+              <!--   <form id="searchForm" action="/search.html" method="get" class="search-box">
+                    <label for="mainSearch">검색</label>
+                    <input id="mainSearch" class="search-input" name="query" type="text" placeholder="검색어를 입력하세요" />
+                    <button class="search-btn" type="submit"><span class="hidden">검색</span></button>
+                </form> -->
+                <div class="account-box">
+                    <span class="user-name">user</span>
+                    <span class="user-profile">
+                        <img src="./source/image/profile.png" alt="profile" />
+                    </span>
+                    <div class="account-hover-box">
+                        <div class="hover-box-upper">
+                            <img src="./source/image/profile.png" alt="profile" />
+                            <span>userName</span>
+                        </div>
+                        <div class="hover-box-nav">
+                            <ul>
+                                <li><a href="#">프로필관리</a></li>
+                                <li><a href="#">구매내역 관리</a></li>
+                                <li><a href="#">관심 콘텐츠 목록</a></li>
+                            </ul>
+                        </div>
+                        <div class="logout">
+                            <span>로그아웃</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- search -->
+        <div class="search-wrapper">
+            <div class="container">
+                <section class="search-upper">
+                    <a href="./home.html"><img src="source/image/ico/ico_back.png" alt=""></a>
+                    <div class="search-bar">
+                        <form action="">
+                            <input type="text" id="search-input" />
+                            <button id="search-button">
+                                <img src="source/image/ico/ico_search.png" alt="검색" />
+                            </button>
+                        </form>
+                    </div>
+                </section>
+                <section class="search-popular">
+                    <div class="popular-list01">
+                        <img src="source/image/ico/ico_search_fff.png" alt="">
+                        <div class="popular-list-text">
+                            <h3>인기검색어</h3>
+                            <p>"모두가 찾아본 화제의 콘텐츠"</p>
+                        </div>
+                    </div>
+                    <div class="popular-list02">
+                        <div id="popular-list-left">
+                            <div class="popular-item">
+                                <!-- js render -->
+                            </div>
+                        </div>
+                        <div id="popular-list-right">
+                            <div class="popular-item">  
+                                <!-- js render -->           
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="search-recommend">
+                    <span>"놓치면 후회할, 위즈플레이 오늘의 선택"</span>
+                    <h3>추천작</h3>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper" id="swiper-wrapper">
+                            <!-- js render -->
+                        </div>
+                    </div>
+                    <div class="swiper-top"></div>
+                    <div class="swiper-bottom"></div>
+                </section>
+                <section class="search-content">
+                    <div class="content-text">
+                        <h3>콘텐츠</h3>
+                        <span>"위즈플레이가 찾아낸 콘텐츠"</span>
+                    </div>
+                    <div id="content-result">
+                    </div>
+                    <div class="scroll"></div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "불꽃축제",
+        "creator": "user",
+        "like": 12,
+        "share": 14,
+        "tag": ["축제", "불꽃놀이", "여름밤", "설렘", "추억"],
+        "context": "밤하늘에 수놓인 불꽃을 바라보며 마음이 설레었던 순간. 시원한 바람이 스치는 여름밤, 친구들과 함께 웃고 떠들며 나눈 소소한 이야기들이 아직도 머릿속을 맴돌아요. 불꽃 하나하나에 담긴 우리의 기억이 조금씩 반짝이며 오늘 하루가 특별하게 느껴졌던 밤.",
+        "video": "./source/video/0817.mp4"
+    },
+    {
+        "id": 2,
+        "title": "드라마 OST 맞춰보기",
+        "creator": "user",
+        "like": 16,
+        "share": 16,
+        "tag": ["드라마", "OST", "감성", "퀴즈", "음악"],
+        "context": "그 장면을 다시 떠올리며 스피커에서 흘러나오는 OST 한 소절에 마음이 촉촉해졌던 순간. 화면 속 감정과 노래가 오묘하게 맞닿아 잠시 현실을 잊게 만드는 느낌. 혼자서 따라 불러보기도 하고, 누구와 함께 들으면 좋을까 상상하며 웃음 짓던 시간.",
+        "video": "./source/video/0818.mp4"
+    },
+    {
+        "id": 3,
+        "title": "이번 분기 봐야할 애니 Top 3",
+        "creator": "user",
+        "like": 9,
+        "share": 20,
+        "tag": ["애니", "추천", "이번분기", "TOP", "꿀잼"],
+        "context": "이번 분기는 무슨 애니를 볼까? 추천작 엄선 Top 3",
+        "video": "./source/video/ksh-reels01.mp4"
+    },
+    {
+        "id": 4,
+        "title": "영업하는 아카자",
+        "creator": "user",
+        "like": 14,
+        "share": 55,
+        "tag": ["다크소울", "스콜라", "귀멸의 칼날", "아카자", "쿄쥬로"],
+        "context": "꼴맘 아카자의 스꼴라 영업",
+        "video": "./source/video/ksh-reels02.mp4"
+    },
+    {
+        "id": 5,
+        "title": "관상으로 캐릭터 맞춰보기01",
+        "creator": "user",
+        "like": 20,
+        "share": 13,
+        "tag": ["캐릭터", "관상", "GPT", "MZ관상"],
+        "context": "관상 보고 떠오르는 캐릭터 맞추기 🤔 당신은 몇 개나 맞출 수 있을까요?",
+        "video": "./source/video/ene-reel01.mp4"
+    },
+    {
+        "id": 6,
+        "title": "관상으로 캐릭터 맞춰보기02",
+        "creator": "user",
+        "like": 1,
+        "share": 10,
+        "tag": ["캐릭터", "관상", "GPT", "MZ관상"],
+        "context": "관상으로 캐릭터 맞추기 2탄! 이번엔 더 어렵습니다 🤔 맞혀볼 수 있나요?",
+        "video": "./source/video/ene-reels02.mp4"
+    },
+    {
+        "id": 7,
+        "title": "진격의 거인 극장판 정주행 순서",
+        "creator": "user",
+        "like": 19,
+        "share": 4,
+        "tag": ["진격의거인", "극장판정주행", "애니추천", "정주행가이드", "애니영화"],
+        "context": "애니 다 못 보겠다고? 극장판 순서로 정주행 ㄱㄱ",
+        "video": "./source/video/moon-reels01.mp4"
+    },
+    {
+        "id": 8,
+        "title": "귀칼 상현 순위",
+        "creator": "user",
+        "like": 16,
+        "share": 60,
+        "tag": ["귀멸의칼날", "무한성편", "아카자", "DemonSlayer"],
+        "context": "귀칼 팬이라면 무조건 알아야 하는 무한성편 상현 순위! 사실상 무잔 최강 부하 TOP6 ㅋㅋ",
+        "video": "./source/video/moon-reels02.mp4"
+    }
+]

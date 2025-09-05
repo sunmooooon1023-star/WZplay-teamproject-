@@ -1,0 +1,231 @@
+body{
+    background-color: #21252B;
+}
+
+.category-detail-wrapper{
+    width: 100%;
+    background-color: #21252B;
+}
+
+.category-detail-main-visual {
+    position: relative;
+    height: 800px;
+}
+
+
+.category-detail-main-visual>.overlay-text {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    color: #fff;
+}
+
+
+.category-detail-main-visual>.overlay-text>.category-detail-main-visual-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.category-detail-main-visual>.overlay-text>.category-detail-main-visual-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Rank */
+
+.category-detail-container {
+    position: relative;
+    width: 1600px;
+    margin: 50px auto;
+    padding-bottom: 300px;
+}
+
+.category-detail-container>.category-detail-content-box-rank {
+    margin-bottom: 150px;
+}
+
+.category-detail-container>.category-detail-content-box-rank>.swiper.reels-swiper>.swiper-button-prev>img {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: -10px;
+    opacity: 50%;
+}
+
+
+.category-detail-container>.category-detail-content-box-rank>.swiper.reels-swiper>.swiper-button-next>img {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: -10px;
+    opacity: 50%;
+}
+
+
+.category-detail-container>.category-detail-content-box-rank>.swiper.reels-swiper>.swiper-wrapper>.swiper-slide {
+    width: 265px !important;
+    margin: 0 20px 0 100px;
+}
+
+.category-detail-container>.category-detail-content-box-rank>.swiper.reels-swiper>.swiper-wrapper>.swiper-slide:nth-child(5) {
+    margin: 0 20px 0 160px;
+}
+
+.category-detail-container>.category-detail-content-box-rank>.swiper.reels-swiper>.swiper-wrapper>.swiper-slide>a>img {
+    width: 250px;
+    height: 330px;
+    border-radius: 10px;
+}
+
+.category-detail-container>.category-detail-content-box-rank>.swiper.reels-swiper>.swiper-wrapper>.swiper-slide>a>span {
+    font-size: 200px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 50%;
+    position: absolute;
+    left: -60px;
+    bottom: -45px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+/* recommend */
+
+.category-detail-container>.category-detail-content-box-recommend>.recommend01>h3,
+.category-detail-container>.category-detail-content-box-recommend>.recommend02>h3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.category-detail-container>.category-detail-content-box-recommend>.recommend02>h3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+    margin: 150px 0 50px;
+}
+
+.category-detail-container>.category-detail-content-box-recommend>.recommend01>.recommendImg01,
+.category-detail-container>.category-detail-content-box-recommend>.recommend02>.recommendImg02 {
+    margin: 0 auto;
+    width: 1500px;
+    display: flex;
+    overflow: hidden;
+    height: 240px;
+    gap: 30px;
+    flex-wrap: wrap;
+    transition: height 0.5s ease;
+    position: relative;
+}
+
+.category-detail-container>.category-detail-content-box-recommend>.recommend01>.recommendImg01>a,
+.category-detail-container>.category-detail-content-box-recommend>.recommend02>.recommendImg02>a {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.category-detail-container > .category-detail-content-box-recommend > .recommend01 > .recommendImg01 > a::before,
+.category-detail-container > .category-detail-content-box-recommend > .recommend02 > .recommendImg02 > a::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), #000000 99%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none; /* 클릭 방해 방지 */
+    z-index: 5;
+}
+
+.category-detail-container > .category-detail-content-box-recommend > .recommend01 > .recommendImg01 > a:hover::before,
+.category-detail-container > .category-detail-content-box-recommend > .recommend02 > .recommendImg02 > a:hover::before {
+    opacity: 0.5;  /* 원하는 투명도 조절 */
+}
+
+
+.category-detail-container>.category-detail-content-box-recommend>.recommend01>.recommendImg01>a>span,
+.category-detail-container>.category-detail-content-box-recommend>.recommend02>.recommendImg02>a>span {
+    display: block;
+    width: 300px;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    z-index: 10;
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.4s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.category-detail-container>.category-detail-content-box-recommend>.recommend01>.recommendImg01>a:hover>span,
+.category-detail-container>.category-detail-content-box-recommend>.recommend02>.recommendImg02>a:hover>span {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.category-detail-container>.category-detail-content-box-recommend>.recommend01>.recommendImg01>a>img,
+.category-detail-container>.category-detail-content-box-recommend>.recommend02>.recommendImg02>a>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category-detail-container>.category-detail-content-box-recommend>.recommend01>.button,
+.category-detail-container>.category-detail-content-box-recommend>.recommend02>.button {
+    position: relative;
+    border: 1px solid #727272;
+    top: 20px;
+}
+
+.category-detail-container>.category-detail-content-box-recommend>.recommend01>.button>img,
+.category-detail-container>.category-detail-content-box-recommend>.recommend02>.button>img {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 48.2%;
+    top: -20px;
+    background: #21252B;
+}
+
+/* fixed */
+
+.fixed {
+    width: 120px;
+    height: 350px;
+    background: #21252B;
+    border: 1px solid #ffffff;
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fixed>span {
+    display: block;
+    font-size: 20px;
+    margin: 20px 0 30px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.fixed>.menu>a>p {
+    line-height: 2.5;
+    color: #fff;
+}
+
+.fixed>.menu>a>p:hover {
+    font-weight: 500;
+    color: #D33A3C;
+}

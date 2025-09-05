@@ -1,0 +1,500 @@
+@charset "utf-8";
+
+
+/* 공통 */
+@property --cut {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 65%;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border: 1px solid #7a7a7a;
+    border-radius: 10px;
+    background: #fff;
+    transition: all 0.2s;
+}
+
+.btn:hover, .btn:focus {
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid #EAA500;
+    background: #EAA500;
+}
+.btn.is-pressed{
+  color:#fff;
+  border-color:#EAA500;
+  background:#EAA500;
+}
+
+#wrap {
+    width: 1280px;
+    margin: 80px auto;
+}
+
+#wrap h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    position: relative;
+    padding-left: 15px;
+    /* 바 넓이(5) + 여백 */
+    line-height: 28px;
+    /* 바 높이와 맞추면 수직정렬 깔끔 */
+}
+
+h3::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    content: '';
+    width: 4px;
+    height: 24px;
+    background: #EAA500;
+}
+
+
+/* 결제정보입력 */
+#wrap #payBefore {
+    width: 94.2%;
+    padding: 50px 100px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+}
+
+#wrap #payBefore h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#wrap #payBefore .select {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+
+#wrap #payBefore .select span {
+    font-size: 16px;
+}
+
+#wrap #payBefore .select .checkBox {
+    width: 20px;
+    height: 20px;
+
+}
+.checkBox{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.1s;
+}
+.checkBox.checked{opacity: 1;}
+/* 배송지 입력영역 */
+
+/* 배송 요청사항 입력 영역 */
+#wrap #payBefore .sendinfo {
+  width: 100%;
+  height: 66px;
+  background: #EFEFEF;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  padding-left: 12px;
+  font-size: 16px;
+  transition: background .2s;
+}
+#wrap #payBefore .sendinfo:focus,
+#wrap #payBefore .sendinfo.filled {
+  background: #fff;
+}
+
+#payBefore input[type="text"], #payBefore textArea {
+    width: 100%;
+    height: 125px;
+    background: #EFEFEF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    resize: none;
+    font-size: 18px;
+    font-family: inherit;
+    line-height: 1.5;
+    transition: background 0.2s;
+}
+#payBefore input[type="text"]:focus, #payBefore textarea:focus {
+  background: #fff;
+  outline: none;
+}
+#payBefore input[type="text"].filled,
+#payBefore textarea.filled{
+  background:#fff;
+}
+#payBefore input[type="text"]:not(:placeholder-shown),
+#payBefore textarea:not(:placeholder-shown){
+  background:#fff;
+}
+#wrap #payBefore input[type="text"]{
+    width: 100%;
+    height: 50px;
+    background: #EFEFEF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding-left: 12px;
+    font-size: 18px;
+    transition: background 0.2s;
+}
+#wrap #payBefore input[type="text"]:focus{
+    background: #fff;
+    outline: none;
+}
+#payBefore input[type="text"]::placeholder {
+  color: rgba(0,0,0,0.4);
+  font-size: 18px;
+}
+
+/* 쿠폰 적용영역 */
+
+#wrap #payBefore .cuponArea {
+    margin-bottom: 50px;
+}
+
+#wrap #payBefore .innerBox {
+    width: 100%;
+    display: flex;
+    padding: 25px 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    /* background-color: #d33dca; */
+}
+
+#wrap #payBefore .innerBox p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#wrap #payBefore .innerBox span {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#wrap #payBefore .innerBox .left {
+    display: flex;
+    flex-direction: column;
+    border-right: 4px solid rgba(0, 0, 0, 0.35);
+    width: 80%;
+}
+#wrap #payBefore .innerBox .left .saleBtnWrap{
+    margin-bottom: auto;
+}
+#wrap #payBefore .innerBox .sale {
+    --cut:65%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: linear-gradient(120deg,#fff 0%,
+    #fff var(--cut),#EAA500 var(--cut),#EAA500 100%);
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition:
+    --cut 1.2s cubic-bezier(.22,.61,.36,1),color 0.2s .15s,border-color 0.2s .15s,box-shadow 0.2s .15s;
+}
+#wrap #payBefore .innerBox .sale:hover{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+}
+/* 여름 시즌 버튼이 선택되었을 때 */
+#wrap #payBefore .innerBox .sale.is-active{
+  --cut: 0%;
+  border-color: #EAA500;
+  color: #fff;
+}
+#wrap #payBefore .innerBox .sale span {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+#wrap #payBefore .innerBox .right {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+#wrap #payBefore .innerBox .right span{
+    margin-bottom: 20px;
+}
+#wrap #payBefore .innerBox .right p, #wrap #payBefore .innerBox .right del{
+    font-weight: 500;
+    text-align: right;
+}
+#wrap #payBefore .innerBox .right strong{
+    font-size: 20px;
+    margin-right: 5px;
+}
+#wrap #payBefore .innerBox .right del{
+    font-size: 18px;
+    color: #7a7a7a;
+    margin-bottom: 5px;
+}
+#wrap #payBefore .innerBox .right .total span{
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #D33A3C;
+}
+.use.btn {
+    font-size: 18px;
+    background-color: #D33A3C;
+    border: 1px solid #D33A3C;
+    margin-right: 15px;
+    margin-left: auto;
+    color: #fff;
+}
+.use.btn:focus {
+    color: #121212;
+    font-weight: 600;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid #121212;
+    background: #fff;
+}
+.use.btn.is-pressed{
+  color:#121212;
+  border-color:#121212;
+  background:#fff;
+}
+
+
+/* 카드 선택 영역 */
+.cardArea{
+    width: 100%;
+    position: relative;
+    
+}
+.cardArea>button {
+    margin-bottom: 30px;
+}
+
+.cardArea ul {
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.cardArea ul li {
+    flex-basis: 230px;
+    height: 175px;
+    padding-bottom: 30px;
+}
+
+.cardArea ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.15);
+}
+.cardArea ul li a::before{
+    content: url(../source/image/ico/circle_checked_w.png);
+    display: none;
+    position: absolute;
+    top: 30%; left: 40%;
+    transform: translate(-25%, -25%);
+    width: 5%; height: 5%;
+    z-index: 201;
+}
+.cardArea ul li a::after{
+    position: absolute;
+    border-radius: 10px;
+    content: '';
+    top: 0;
+    left: 0;
+    display: none;
+    width: 230px;
+    height: 146px;
+    background-color: rgba(234, 165, 0,0.5);
+}
+.cardArea ul li a.is-on::before,
+.cardArea ul li a.is-on::after{
+  display: block;
+}
+.cardArea ul li a > p{
+    font-size: 12px;
+    color: #303030;
+    text-align: center;
+    line-height: 180px;
+
+}
+
+.cardArea .selectList,
+.cardArea .phoneSelect{ display:none; }
+
+
+.cardArea ul>li:first-child a {
+    background: url(../source/image/store_img/cash_card/cash\ card4.png) no-repeat center/contain;
+}
+.cardArea ul>li:nth-child(2) a{
+    background: url(../source/image/store_img/cash_card/cash\ card2.png) no-repeat center/contain;
+} 
+.cardArea ul>li:nth-child(3) a{
+    background: url(../source/image/ico/circle_add.png) no-repeat center/contain;
+    background-size: 20%;
+} 
+
+.cardArea .selectList.mode-bank ul>li:first-child a {
+  background: url(../source/image/store_img/cash_card/cash\ card1.png) no-repeat center/contain;       /* 예시 */
+}
+.cardArea .selectList.mode-bank ul>li:nth-child(2) a {
+  background: url(../source/image/store_img/cash_card/cash\ card3.png) no-repeat center/contain;       /* 예시 */
+}
+
+
+.cardArea .phoneSelect{
+  display: none;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  color: #121212;
+  margin-bottom: 20px;
+  border: 2px solid #929292;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.cardArea .phoneSelect img{
+  display: block;
+  width: 80px;     /* 또는 20% 등, 원하는 기준 */
+  height: auto;    /* 비율 유지 */
+  margin: 0 auto 10px;
+  cursor: pointer;
+}
+.cardArea .use.btn{
+    width: 100%;
+}
+
+
+/* 결제 이후 */
+
+#wrap #payAfter {
+    width: 94.2%;
+    padding: 100px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+}
+
+#payAfter .calculation > div{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline; 
+  margin-bottom: 15px; 
+    font-size: 20px;
+    
+}
+#payAfter .calculation .price::after,
+#payAfter .calculation .discount::after,
+#payAfter .calculation > div:nth-of-type(4) span::after { /* 배송비 줄 */
+  content:'원';
+  margin-left:4px;
+}
+#payAfter .calculation .price,
+#payAfter .calculation .discount{
+  font-variant-numeric: tabular-nums;
+}
+
+#payAfter .calculation>div .price{
+    color: #121212;
+    font-size: 22px;
+    font-weight: 600;
+}
+#payAfter .calculation>div .discount{
+    font-size: 20px;
+    color: #7a7a7a;
+}
+#payAfter .calculation>div:last-child p:last-child{
+    color: #7a7a7a;
+}
+#payAfter .calculation .cpCheck{
+    display: none;
+    font-size: 18px;
+    color: #121212;
+    text-align: center;
+    line-height: 44px;
+    width: 160px; height: 44px;
+    background: linear-gradient(120deg,#fff 70%, #EAA500 30%);
+    border-radius: 5px;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#payBefore .cuponArea.is-highlight{
+  box-shadow: 0 0 0 4px rgba(234,165,0,.5) inset;
+  border-radius: 10px;
+  transition: box-shadow .6s;
+}
+#payAfter .calculation .cpCheck.is-visible{
+  display:inline-block; 
+}
+
+#payAfter .total{
+    display: flex;
+    width: 100%; height: 64px;
+    padding: 0 20px;
+    justify-content: space-between;
+    background: rgba(211, 58, 60,0.1);
+    border-top: 3px solid #b6b6b6;
+}
+#payAfter .total p{
+/*     display: inline-block; */
+    font-size: 24px;
+    line-height: 64px;
+    font-weight: bold;
+}
+#payAfter .total p:nth-child(2){
+    font-size: 28px;
+    color: #D33A3C;
+}
+#payAfter .total p span{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* 결제하기 버튼*/
+.payBtn {
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #D33A3C;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 80px;
+    color: #fff;
+}

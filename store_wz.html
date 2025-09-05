@@ -1,0 +1,924 @@
+<!-- 
+ 서브 헤더 나왔을때 해당 위치로 가기
+ 클릭하면 해당 페이지로 가기
+ 스크롤 애니메이션 넣을건지 결정하기
+ -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WZ 스토어 - 오직 WZ에서만 만나는 아이템</title>
+    <link rel="icon" type="image/png" href="source/image/favicon.png" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/store_wz.css">
+    <link rel="stylesheet" href="css/subheader.css">
+
+    <!-- 헤더 링크 -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <script type="module" src="js/layout.js"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Demo styles -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <style>
+        body {
+            background: linear-gradient(white, #ffe6e6);
+        }
+    </style>
+</head>
+
+
+<body>
+    <div style="position: relative;"><!-- height: 200vh; background-color: aqua; -->
+        <header id="mainHeader" class="main-header-container">
+            <div class="logo-box">
+                <h1 class="logo">
+                    <a href="/home.html">
+                        <img src="./source/image/wz_logo.png" alt="logo">
+                    </a>
+                </h1>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#"><img src="source/image/ico/menu.png" alt="모달메뉴"></a>
+                </li>
+            </ul>
+            <div class="util-box">
+                <form id="searchForm" action="/search.html" method="get" class="search-box">
+                    <label for="mainSearch">검색</label>
+                    <input id="mainSearch" class="search-input" name="query" type="text" placeholder="검색어를 입력하세요" />
+                    <button class="search-btn" type="submit"><span class="hidden">검색</span></button>
+                </form>
+                <div class="account-box">
+                    <span class="user-name">user</span>
+                    <span class="user-profile">
+                        <img src="source/image/ico/profile_store.png" alt="profile" />
+                    </span>
+                    <div class="account-hover-box">
+                        <div class="hover-box-upper">
+                            <img src="source/image/ico/profile_store.png" alt="profile" />
+                            <span>userName</span>
+                        </div>
+                        <div class="hover-box-nav">
+                            <ul>
+                                <li><a href="#">프로필관리</a></li>
+                                <li><a href="#">구매내역 관리</a></li>
+                                <li><a href="#">관심 콘텐츠 목록</a></li>
+                            </ul>
+                        </div>
+                        <div class="logout">
+                            <span>로그아웃</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="subHeader">
+        <h3><span>WZ</span>play</h3>
+        <div class="headerClose"><a href="#"><img src="source/image/ico/close (1).png" alt="메뉴닫기"></a></div>
+        <div class="subHeaderOpen">
+            <ul>
+                <li><a href="#"><span>Product</span></a>
+                    <ul>
+                        <li><a href="#" class="jumpTab" data-tab="0"><span>Bag</span></a></li>
+                        <li><a href="#" class="jumpTab" data-tab="1"><span>T-Shirts</span></a></li>
+                        <li><a href="#" class="jumpTab" data-tab="2"><span>Rag-Doll</span></a></li>
+                        <li><a href="#" class="jumpTab" data-tab="3"><span>ACC</span></a></li>
+                        <li><a href="#" class="jumpTab" data-tab="4"><span>Other</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li><a href="#"><span>SignitureCollab</span></a>
+                    <ul>
+                        <li><a href="#"><span>Reservation</span></a></li>
+                        <li><a href="#"><span>DramaCollab</span></a></li>
+                        <li><a href="#"><span>MovieCollab</span></a></li>
+                        <li><a href="#"><span>AnimationCollab</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li><a href="#"><span>Costomer</span></a>
+                    <ul>
+                        <li><a href="#"><span>배송문의</span></a></li>
+                        <li><a href="#"><span>콜라보제의</span></a></li>
+                        <li><a href="#"><span>Q&A</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="wrap">
+        <section id="mainVisual">
+            <!-- Swiper -->
+            <div class="swiper mainSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="bg bg1">
+                            <div class="textBox">
+                                <span>아비오트가 선사하는 즐거움!</span>
+                                <h2>WZ x 아비오트</h2>
+                                <button class="detail"><a href="store_item.html?id=AVIOTxWZ">자세히 보기</a></button>
+                                <button class="buy"><a href="store_item.html?id=AVIOTxWZ">구매하기</a></button>
+                            </div>
+                            <img src="source/image/store_img/others/aviot_w.webp" alt="이어폰" class="mainItem">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg bg2">
+                            <div class="textBox">
+                                <span>나도 이제 결속 밴드에 합류? 내 포지션 확보!</span>
+                                <h2>WZ x 봇치더락</h2>
+                                <button class="detail"><a href="store_item.html?id=p-botchi-acc">자세히 보기</a></button>
+                                <button class="buy"><a href="store_item.html?id=p-botchi-acc">구매하기</a></button>
+                            </div>
+                            <img src="source/image/store_img/acc/botchi2_vactor.png" alt="목걸이" class="mainItem">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg bg3">
+                            <div class="textBox">
+                                <span>추억 속 햄토리와 다시 만났다.</span>
+                                <h2>WZ x 방가방가 햄토리</h2>
+                                <button class="detail"><a href="store_item.html?id=p-hamtori-dolls">자세히 보기</a></button>
+                                <button class="buy"><a href="store_item.html?id=p-hamtori-dolls">구매하기</a></button>
+                            </div>
+                            <img src="source/image/store_img/rag-dolls/hamtori1_vactor.png" alt="피규어" class="mainItem">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg bg4">
+                            <div class="textBox">
+                                <span style="color: #fff;">모두의 귀염둥이 더피를 우리 집에 입양하기?</span>
+                                <h2 style="color: #fff;">WZ x 케이팝데몬헌터스</h2>
+                                <button class="detail"><a href="store_item.html?id=p-kdh-dolls">자세히 보기</a></button>
+                                <button class="buy"><a href="store_item.html?id=p-kdh-dolls">구매하기</a></button>
+                            </div>
+                            <img src="source/image/store_img/rag-dolls/kdh_dupy.png" alt="솜인형" class="mainItem">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar">
+                    <div class="custom-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+        <section id="bestSeller">
+            <h2>Best Seller</h2>
+            <span>가장 많이 팔린 위즈의 인기 상품들을 만나보세요.</span>
+            <div class="innerBox" role="tablist" aria-label="Best Seller Accordion">
+                <div class="bestItemBox best1" role="tab" tabindex="0" aria-selected="true">
+                    <div class="info">
+                        <h3>AVIOT:FRIREN</h3>
+                        <p>작지만 강력한 퍼포먼스! <br>
+                            프리렌 성우의 선명한 음질이 담긴 이 제품은 <br>
+                            안정적인 블루투스 연결로 <br>
+                            당신의 하루를 더 특별하게 만들어 줍니다.</p>
+                    </div>
+                    <figure class="bestItem"></figure>
+                </div>
+                <div class="bestItemBox best2" role="tab" tabindex="0" aria-selected="false">
+                    <div class="info">
+                        <h3>크레용 신짱</h3>
+                        <p>작지만 확실한 존재감, 초코비 열쇠고리! <br>
+                            어디에 달아도 세련된 포인트가 되는 감각적인 디자인. <br>
+                            당신의 일상 소품에 특별한 개성을 더해보세요.</p>
+                    </div>
+                    <figure class="bestItem"></figure>
+                </div>
+                <div class="bestItemBox best3" role="tab" tabindex="0" aria-selected="false">
+                    <div class="info">
+                        <h3>사카모토데이즈</h3>
+                        <p>따뜻한 순간을 함께할 작은 친구, 신짱! <br>
+                            손 안에 꼭 들어오는 포근함으로 하루의 피곤함을 풀어보세요. <br>
+                            선물하기에도, 내 곁에 두기에도 완벽한 힐링 아이템입니다.</p>
+                    </div>
+                    <figure class="bestItem"></figure>
+                </div>
+                <div class="bestItemBox best4" role="tab" tabindex="0" aria-selected="false">
+                    <div class="info">
+                        <h3>K.D.H</h3>
+                        <p>나도 악귀를 무찌르는 헌터?<br>
+                            가볍고 편안한 착용감, 언제 어디서든 잘 어울리는 디자인.
+                            당신의 개성을 드러내는 새로운 패션 아이템입니다.</p>
+                    </div>
+                    <figure class="bestItem"></figure>
+                </div>
+            </div>
+        </section>
+        <section id="product">
+            <h2>Product</h2>
+            <span>위즈 플레이의 모든 상품을 한눈에 보실 수 있도록 모았습니다.</span>
+            <div class="innerBox">
+                <div class="proWrap">
+                    <div class="tabArea">
+                        <ul class="tabMenu">
+                            <li class="on"><a href="#" return false;>Bag</a></li>
+                            <li><a href="#" return false;>T-shirts</a></li>
+                            <li><a href="#" return false;>Rag-Doll</a></li>
+                            <li><a href="#" return false;>Acc</a></li>
+                            <li><a href="#" return false;>Other</a></li>
+                        </ul>
+                    </div>
+                    <div class="tabOpen">
+                        <ul id="item-bag" class="productList on">
+                            <li class="product" data-pid="p-message-bag">
+                                <figure>
+                                    <a href="store_item.html?id=p-message-bag">
+                                        <img src="source/image/store_img/bag/message_bag0.png" alt="메신저백">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>위즈 메신저백</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">22%</span>
+                                            <strong class="price">22,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.9</span>
+                                            <span>(257)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-cross-bag">
+                                <figure>
+                                    <a href="store_item.html?id=p-cross-bag">
+                                        <img src="source/image/store_img/bag/cross_bag.png" alt="미니 크로스백">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>위즈 미니크로스백</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">22%</span>
+                                            <strong class="price">63,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.9</span>
+                                            <span>(257)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-back-bag">
+                                <figure>
+                                    <a href="store_item.html?id=p-back-bag">
+                                        <img src="source/image/store_img/bag/backpack1.png" alt="백팩">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>위즈시그니처 백팩</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">22%</span>
+                                            <strong class="price">33,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.9</span>
+                                            <span>(257)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-echo-bag">
+                                <figure>
+                                    <a href="store_item.html?id=p-echo-bag">
+                                        <img src="source/image/store_img/bag/echo_bag.png" alt="에코백">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>위즈 에코백</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">22%</span>
+                                            <strong class="price">10,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.9</span>
+                                            <span>(257)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul id="item-tshirt" class="productList">
+                            <li class="product" data-pid="p-slamdunk-shirts">
+                                <figure>
+                                    <a href="store_item.html?id=p-slamdunk-shirts">
+                                        <img src="source/image/store_img/t-shirts/slamdunk.png" alt="슬램덩크">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>위즈x슬램덩크 20주년 티셔츠</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">8%</span>
+                                            <strong class="price">65,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.6</span>
+                                            <span>(234)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-onepiece-shirts">
+                                <figure>
+                                    <a href="store_item.html?id=p-onepiece-shirts">
+                                        <img src="source/image/store_img/t-shirts/onepiece4.png" alt="원피스티셔츠">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>위즈x원피스 남녀공용 반팔 티셔츠</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">13%</span>
+                                            <strong class="price">33,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.7</span>
+                                            <span>(788)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-attackontitan-shirts">
+                                <figure>
+                                    <a href="store_item.html?id=p-attackontitan-shirts">
+                                        <img src="source/image/store_img/t-shirts/attackontitan.png" alt="진격티셔츠">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>진격의 거인 조사병단 티셔츠</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">22%</span>
+                                            <strong class="price">69,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.9</span>
+                                            <span>(234)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-sinjang-shirts">
+                                <figure>
+                                    <a href="store_item.html?id=p-sinjang-shirts">
+                                        <img src="source/image/store_img/t-shirts/sinjang_t.png" alt="짱구티셔츠">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>짱구 커플티 남녀공용</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">10%</span>
+                                            <strong class="price">19,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.9</span>
+                                            <span>(97)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul id="item-ragDoll" class="productList">
+                            <li class="product" data-pid="p-april-dolls">
+                                <figure>
+                                    <a href="store_item.html?id=p-april-dolls">
+                                        <img src="source/image/store_img/rag-dolls/april.png" alt="4월피규어">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>위즈x4월은 너의 거짓말</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">5%</span>
+                                            <strong class="price">125,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>5.0</span>
+                                            <span>(998)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-brown-dolls">
+                                <figure>
+                                    <a href="store_item.html?id=p-brown-dolls">
+                                        <img src="source/image/store_img/rag-dolls/brown4.png" alt="브라운인형">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>괴담출근 브라운 인형</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">5%</span>
+                                            <strong class="price">39,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.8</span>
+                                            <span>(+999)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-hamtori-dolls">
+                                <figure>
+                                    <a href="store_item.html?id=p-hamtori-dolls">
+                                        <img src="source/image/store_img/rag-dolls/hamtori1.png" alt="햄토리인형">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>방가방가 햄토리 먹보 피규어</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">20%</span>
+                                            <strong class="price">54,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.0</span>
+                                            <span>(23)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-sakamotodaz-dolls">
+                                <figure>
+                                    <a href="store_item.html?id=p-sakamotodaz-dolls">
+                                        <img src="source/image/store_img/rag-dolls/sakamotodaz5.png" alt="사카모토데이즈인형">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>사카모토 데이즈 신 인형</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">11%</span>
+                                            <strong class="price">77,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.9</span>
+                                            <span>(866)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-kdh-dolls">
+                                <figure>
+                                    <a href="store_item.html?id=p-kdh-dolls">
+                                        <img src="source/image/store_img/rag-dolls/kdh.png" alt="케데헌인형">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>K.D.H 더피&까치 솜인형</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <strong class="price">89,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>5.0</span>
+                                            <span>(+999)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-hxh-dolls">
+                                <figure>
+                                    <a href="store_item.html?id=p-hxh-dolls">
+                                        <img src="source/image/store_img/rag-dolls/hxh.jpg" alt="헌터헌터인형">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>헌터X위즈X헌터 곤&키르아 인형</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">8%</span>
+                                            <strong class="price">138,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.8</span>
+                                            <span>(331)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul id="item-acc" class="productList">
+                            <li class="product" data-pid="p-botchi-acc">
+                                <figure>
+                                    <a href="store_item.html?id=p-botchi-acc">
+                                        <img src="source/image/store_img/acc/botchi.png" alt="봇치목걸이">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>봇치더락 결속밴드</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">13%</span>
+                                            <strong class="price">15,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>3.0</span>
+                                            <span>(222)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-sailormoon-acc">
+                                <figure>
+                                    <a href="store_item.html?id=p-sailormoon-acc">
+                                        <img src="source/image/store_img/acc/saliormoon.png" alt="세일러문팬던트">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>세일러문 30주년 한정 팬던트</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">20%</span>
+                                            <strong class="price">59,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>5.0</span>
+                                            <span>(+999)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="p-sinjang-acc">
+                                <figure>
+                                    <a href="store_item.html?id=p-sinjang-acc">
+                                        <img src="source/image/store_img/acc/sinjang2.png" alt="짱구자석">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>짱구는 못말려 초코비 자석</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">33%</span>
+                                            <strong class="price">16,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.2</span>
+                                            <span>(68)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul id="item-other" class="productList">
+                            <li class="product" data-pid="p-tiniping-others">
+                                <figure>
+                                    <a href="store_item.html?id=p-tiniping-others">
+                                        <img src="source/image/store_img/others/tiniping.png" alt="캐치티니핑우산">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>위즈x캐치! 티니핑 우산</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">5%</span>
+                                            <strong class="price">30,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>4.0</span>
+                                            <span>(92)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product" data-pid="aviot-friren">
+                                <figure>
+                                    <a href="store_item.html?id=AVIOTxWZ">
+                                        <img src="source/image/store_img/others/aviot_w.webp" alt="아비오트이어폰">
+                                    </a>
+                                </figure>
+                                <div class="itemTxt">
+                                    <div class="title">
+                                        <em>위즈x장송의 프리렌 이어폰</em>
+                                    </div>
+                                    <div class="itemInfo">
+                                        <div>
+                                            <span class="bedge">5%</span>
+                                            <strong class="price">245,000원</strong>
+                                        </div>
+                                        <div class="ratings">
+                                            <img src="./source/image/ico/ico_star.svg" alt="">
+                                            <span>5.0</span>
+                                            <span>(+999)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="review">
+            <h2>Review</h2>
+            <span>위즈스토어를 방문해주신 모든 고객님의 마음의 소리를 담았습니다.</span>
+            <div class="innerBox">
+                <div class="revInfo rev1">
+                    <div class="revTxt">
+                        <p class="title">09028님의 리뷰</p>
+                        <p class="info">
+                            재질도 엄청 고급스럽고 폭신매끈한게 제가 딱 생각했던 인형이에요. 중심부에 철심이 들어있어서 튼튼하게 고정시켜주니까 인형이 잘 서있는 점도 좋았습니다. 두세개 더
+                            사서
+                            가족처럼
+                            만들어 둘까 생각중이에요.
+                        </p>
+                    </div>
+                    <div class="btn"><button class="detail"><a href="store_item.html?id=p-brown-dolls">제품 보기</a></button></div>
+                </div>
+                <div class="revInfo rev2">
+                    <div class="revTxt">
+                        <p class="title">85563ads님의 리뷰</p>
+                        <p class="info">
+                            작지만 퀄리티가 정말 좋아요. 가방에 달았는데 포인트가 확 살고, 흔들릴 때마다 은근 귀엽네요. 튼튼해서 오래 쓸 수 있을 것 같고, 여러 개 사서 친구들한테도
+                            선물하고
+                            싶어요.
+                        </p>
+                    </div>
+                    <div class="btn"><button class="detail"><a href="store_item.htmlid=p-sinjang-acc">제품 보기</a></button></div>
+                </div>
+                <div class="revInfo rev3">
+                    <div class="revTxt">
+                        <p class="title">4432ddl님의 리뷰</p>
+                        <p class="info">
+                            재질이 가볍고 시원해서 여름에 입기 딱 좋습니다. 세탁해도 프린트가 변형 없이 그대로라서 만족해요. 캐주얼하게도 입고, 아우터랑 매치해도 잘 어울려서 활용도가
+                            높네요.
+                        </p>
+                    </div>
+                    <div class="btn"><button class="detail"><a href="store_item.html?id=p-slamdunk-shirts">제품 보기</a></button></div>
+                </div>
+                <div class="revInfo rev4">
+                    <div class="revTxt">
+                        <p class="title">voswl020님의 리뷰</p>
+                        <p class="info">
+                            소리 퀄리티가 기대 이상이에요! 고음은 맑고 저음은 묵직해서 듣는 맛이 있습니다. 귀에 착 감기는 착용감 덕분에 오래 들어도 불편하지 않아요. 배터리도 꽤 오래가서
+                            출퇴근
+                            시간
+                            내내 써도 끄떡없네요. 디자인까지 세련돼서 패션 아이템처럼 들고 다니는 재미가 있습니다.
+                        </p>
+                    </div>
+                    <div class="btn"><button class="detail"><a href="store_item.html?id=AVIOTxWZ">제품 보기</a></button></div>
+                            
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer id="mainFooter" class="main-footer-wrapper">
+        <div class="main-footer-container">
+            <ul class="social-nav">
+                <li><a href="#" class="ico_X"><span class="hidden">X</span></a></li>
+                <li><a href="#" class="ico_facebook"><span class="hidden">페이스북</span></a></li>
+                <li><a href="#" class="ico_insta"><span class="hidden">인스타그램</span></a></li>
+                <li><a href="#" class="ico_youtube"><span class="hidden">유튜브</span></a></li>
+            </ul>
+            <ul class="footer-nav">
+                <li>회사 정보</li>
+                <li>법적 고지</li>
+                <li>이용 약관</li>
+                <li>쿠키 설정</li>
+            </ul>
+            <ul class="footer-nav">
+                <li>개인정보</li>
+                <li>고객 센터</li>
+                <li>문의하기</li>
+                <li>청소년보호정책</li>
+            </ul>
+            <ul class="footer-nav">
+                <li>공지사항</li>
+                <li>환불정책</li>
+            </ul>
+            <div class="company-info">
+                <p>상호명 : 주식회사 위즈플레이 (WZPlay Inc.)</p>
+                <p>사업자등록번호 : 123-45-67890</p>
+                <p>통신판매업신고번호 : 제2025-서울마포-0001호</p>
+                <p>주소 : 서울특별시 마포구 와우산로 123, 5층 (04000)</p>
+                <p>이메일 : contact@wzplay.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script>
+        /* 서브 헤더 창열기 */
+        $(function () {
+            $('.nav-list').on('click', function (e) {
+                e.preventDefault();
+                let subHeader = $('.subHeader');
+                $(subHeader).stop().animate({
+                    left: 0
+                }, 1500, 'easeOutExpo')
+            })
+
+            $('.headerClose').on('click', function () {
+                let subHeader = $('.subHeader');
+                $(subHeader).stop().animate({
+                    left: '-100%'
+                }, 1500, 'easeOutExpo')
+            })
+        })
+
+        /* 서브헤더 메뉴를 클릭하면 해당 프로덕트로 이동하기 */
+        // 서브헤더의 탭 점프
+        $(function () {
+            $('#product').attr('tabindex', '-1');
+
+            $('.subHeaderOpen').on('click', 'a.jumpTab', function (e) {
+                e.preventDefault();
+
+                const tabIndex = Number($(this).data('tab')) || 0;
+                const $tabLi = $('.tabMenu li');
+                const $lists = $('.tabOpen > .productList');
+
+                // 탭 전환
+                $tabLi.removeClass('on').eq(tabIndex).addClass('on');
+                $lists.removeClass('on').eq(tabIndex).addClass('on');
+
+                // 스크롤
+                const headerH = $('#mainHeader').outerHeight() || 0;
+                const dest = Math.max(0, $('#product').offset().top - headerH);
+                $('html, body').stop().animate({ scrollTop: dest }, 700, 'easeOutCubic');
+
+                // 서브헤더 닫기
+                $('.subHeader').stop().animate({ left: '-100%' }, 600, 'easeInExpo');
+
+                // 포커스 이동
+                setTimeout(() => { $('#product').focus(); }, 750);
+            });
+        });
+
+        /* 프로덕트 메뉴 탭기능 */
+        $('.tabMenu li').on('click', function (e) {
+            e.preventDefault();
+            const i = $(this).index();
+            const $tabLi = $('.tabMenu li');
+            const $lists = $('.tabOpen > .productList');
+
+            $tabLi.removeClass('on').eq(i).addClass('on');
+            $lists.removeClass('on').eq(i).addClass('on');
+        });
+
+
+        /* 베스트셀러 아코디언 */
+        document.addEventListener('DOMContentLoaded', () => {
+            const boxes = [...document.querySelectorAll('.bestItemBox')];
+
+            const open = (el) => {
+                boxes.forEach(b => {
+                    const active = b === el;
+                    b.classList.toggle('is-open', active);
+                    b.setAttribute('aria-selected', active ? 'true' : 'false');
+                });
+            };
+
+            //첫 번째 카드 오픈쓰
+            open(boxes[0]);
+
+            // 눌러서 토글쓰
+            boxes.forEach(b => {
+                b.addEventListener('click', () => open(b));
+                b.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(b); }
+                    //화살표로 이동쓰
+                    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+                        e.preventDefault();
+                        const i = boxes.indexOf(b);
+                        const next = e.key === 'ArrowRight' ? (i + 1) % boxes.length : (i - 1 + boxes.length) % boxes.length;
+                        boxes[next].focus();
+                        open(boxes[next]);
+                    }
+                });
+            });
+        });
+
+        /* 프로덕트 메뉴 탭기능 */
+        $('.tabMenu li').on('click', function (e) {
+            e.preventDefault();
+            //방금 클릭한 li의 순서를 변수에 저장
+            let i = $(this).index();
+            console.log(i)
+            //실행전에 li에 on클래스를 모두 제거
+            $('li').removeClass('on');
+            $('li').eq(i).addClass('on');
+            $(this).addClass('on');
+            $('.tabOpen >.productList').removeClass('on')
+            $('.tabOpen >.productList').eq(i).addClass('on')
+        })
+
+        /* Initialize Swiper */
+
+        var swiper = new Swiper(".mainSwiper", {
+            loop:true,
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                draggable: true,
+                dragSize: 400
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            }
+        });
+        
+        $(function () {
+            const ragIdx = 2;
+            const $wrap  = $('.proWrap');
+            $('.tabMenu li').on('click', function (e) {
+                e.preventDefault();
+                const i = $(this).index();
+                console.log(i);
+                
+                // 탭 on 토글
+                $('.tabMenu li').removeClass('on');
+                $(this).addClass('on');
+                // 리스트 on 토글
+                const $lists = $('.tabOpen > .productList');
+                $lists.removeClass('on').eq(i).addClass('on');
+                // ★ 라그돌이면 크게, 아니면 60%
+                if (i === 2) {
+                    $wrap.removeClass('h60');          // 전체(기본) 높이
+                // 또는 인라인로 하고 싶으면: $wrap.css('height', '100%');
+                } else {
+                    $wrap.addClass('h60');             // 60%
+                // 또는 인라인: $wrap.css('height', '60%');
+                }
+            });
+            // 초기 상태(페이지 진입 시 현재 활성 탭 기준으로 세팅)
+            const init = $('.tabMenu li.on').index();
+            if (init !== -1 && init !== ragIdx) $wrap.addClass('h60');
+        });
+    </script>
+</body>
+
+</html>

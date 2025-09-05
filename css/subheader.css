@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* 메인헤더 수정 */
+.nav-list .nav-item>a>img{
+    width: 64px;
+    height: 64px;
+}
+.main-header-container{
+    background: rgba(33, 37, 43,0) !important;
+}
+.main-header-container .account-box{
+    color: #222;
+    font-weight: 500;
+}
+.main-header-container .account-box a{
+    color: #222;
+    font-weight: 500;
+}
+.main-header-container .search-box{
+    display: none;
+}
+.main-header-container .account-box .account-hover-box{
+    background: #fff;
+}
+.hover-box-nav ul li:first-child a::before{
+    background: url("../source/image/ico/ico_account.png");
+    background-size: 24px 24px;
+    filter: brightness(0);
+}
+.hover-box-nav ul li:nth-child(2) a::before{
+    background: url("../source/image/ico/ico_basket.png");
+    background-size: 24px 24px;
+    filter: brightness(0);
+}
+.hover-box-nav ul li:last-child a::before{
+    background: url("../source/image/ico/ico_favorite_list.png");
+    background-size: 24px 24px;
+    filter: brightness(0);
+}
+
+/* SubHeader */
+.subHeader {
+    top: 0;
+    left: -100%;
+    position: fixed;
+    padding: 65px;
+    width: 585px;
+    height: 100vh;
+    background: linear-gradient(white, #ffe6e6);
+    z-index: 101;
+}
+
+.subHeader img {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 3%;
+    right: 8%;
+}
+
+.subHeader h3 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.subHeader h3 span {
+    font-size: 48px;
+    color: #D33A3C;
+}
+
+.subHeader>div {
+    padding-left: 30px;
+    border-left: 1px solid #b4b4b4;
+}
+
+.subHeader>div>ul>li>a>span {
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    margin: 30px 0;
+}
+
+.subHeader>div>ul>li>ul>li {
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 2;
+    transition: all 0.3s ease-in;
+}
+
+.subHeader>div>ul>li>ul>li:hover {
+    font-weight: 600;
+    opacity: 1;
+}
+h3::before {display: none;
+}

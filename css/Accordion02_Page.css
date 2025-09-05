@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+.accordion-section-02 {
+    position: relative;
+    margin-top: 100px;
+}
+.accordion-section-02 .accordion-wrapper02 {
+    position: absolute;
+    top: 0;
+    right: 0;   
+    width: 60%;
+    overflow: hidden;
+    display: flex;
+    transition: width 0.8s ease;
+    cursor: pointer;
+}
+.accordion-section-02 .accordion-wrapper02.expanded {
+    width: 100%
+}
+
+.accordion-wrapper02 .accordion-content-box {
+    flex: 1;
+    transition: flex 0.4s ease;
+    overflow: hidden;
+    position: relative;
+    background: #21252B;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+} 
+ .accordion-wrapper02 .accordion-content-box {
+    flex: 1;
+    transition: flex 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #21252B;
+    overflow: hidden;
+}
+
+.accordion-wrapper02 .accordion-content-box.active {
+    flex: 10;
+}
+
+.accordion-wrapper02 .accordion-content-box .content-box-img {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.accordion-wrapper02 .accordion-content-box .content-box-img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, 0.850) 100%);
+}
+
+.accordion-wrapper02 .accordion-content-box.active .content-box-img {
+    -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+.accordion-wrapper02 .accordion-content-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.accordion-wrapper02 .accordion-content-box p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    letter-spacing: 10px;
+    padding: 0 8px 10px 0;
+    font-size: 30px;
+    color: #ffffff;
+    z-index: 2;
+}
+
+/* content 하단에 빨간 선 */
+.accordion-wrapper02 .accordion-content-box-hover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.4s ease;
+    z-index: 1;
+
+}
+
+.accordion-wrapper02 .accordion-content-box-hover::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left, #ff3434 0%, rgba(255, 54, 54, 0) 100%);
+}
+
+/* play-icon */
+
+.accordion-play-icon {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    background: rgba(255, 16, 16, 0.644);
+    box-shadow: 0 0 10px 3px  rgba(255, 16, 16, 0.521);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+
+.accordion-play-icon:hover {
+    border: 1px solid #ddd;
+}
+.accordion-play-icon >a {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accordion-wrapper02 .accordion-play-icon a img {
+    margin: 5px 0 0 5px;
+    width: 37px;
+    height: 37px;
+    opacity: 0.6;
+    transition: filter 0.6s ease, opacity 0.6s ease, transform 0.5s ease;
+}
+.accordion-play-icon:hover a img {
+    opacity: 1;
+    filter:
+    drop-shadow(0 0 4px #ffffff5d) drop-shadow(0 0 4px #ffffff5d) drop-shadow(0 0 4px #ffffff5d);
+}
+.accordion-play-icon .accordion-play-icon-text {
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 4px;
+    color: #ffffff;
+} 
+/* 아코디언 컨텐츠 설명글 */
+.content-more-text {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ddd;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+/* hover 시 효과 발동 */
+.accordion-wrapper02 .accordion-content-box.active .accordion-wrapper02 .accordion-content-box-hover {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+/* accordion-content-text02 */
+.accordion-content-text02 {
+    position: relative;
+    top: 20%;
+    left: 0;
+    width: 460px;
+    color: #ddd;
+    opacity: 1;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    border: 1px solid #464646c4;
+    padding: 30px 0 40px 0;
+    border-radius: 10px;
+    text-align: center;
+    background: #dddddd0e;
+}
+.accordion-content-text02 h4 {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    color: #ddd;
+    font-weight: 400;
+}
+
+.accordion-content-text02 h4::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 106%;
+    height: 1px;
+    background: rgba(163, 163, 163, 0.562);
+
+}
+.accordion-content-text02 h4 span {
+    color: #d16a6a;
+}
+
+.accordion-content-text02.fade-out {
+    opacity: 0;
+}
+
+.accordion-content-text02.hidden {
+    display: none;
+}
+.accordion-content-text02 p {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #cccccc;
+}
+
+.textBox-tag {
+    margin-top: 30px;
+}
+
+.textBox-tag .textBox-text-tag {
+    margin-right: 8px;
+    font-size: 14px;
+    color: #ccc;
+    background: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.textBox-tag .textBox-text-tag>span {
+    display: inline-block;
+    margin-right: 5px;
+    color: #d16a6a;
+}
+.accordion-wrapper02 .accordion-content-box.active .content-box-img p{
+    pointer-events: none;
+}

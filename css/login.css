@@ -1,0 +1,163 @@
+.login-wrapper{
+    width: 100%;
+}
+.login-container{
+    padding-top: 80px;
+    width: 100%;
+    background-color: #21252B;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+.login-container::before{
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, #21252B 50%, transparent);
+    z-index: 3;
+}
+.content-left{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 4;
+}
+.content-box{
+    width: 400px;
+    color: #fff;
+}
+.content-box h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.content-box a{
+    color: #fff;
+    display: inline-block;
+}
+.content-box button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.content-box .login-box{
+    margin-top: 75px;
+}
+.login-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.login-box label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.login-box input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    background: transparent;
+    border: 2px solid transparent;
+    border-bottom: 1px #999 solid;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 10px;
+    transition: border 0.5s ease, box-shadow 0.5s ease;
+    border-radius: 5px;
+}
+.login-box input:focus{
+    border: 2px solid #D33A3C;
+    box-shadow: 0 0 8px #D33A3C;
+}
+.login-box button {
+    width: 100%;
+    background: #D33A3C;
+    height: 40px;
+    border-radius: 10px;
+}
+.content-box .util-box{
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    gap: 0;
+    padding: 0 30px;
+}
+.content-box .line-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-box .line-box .line{
+    width: 160px;
+    height: 1px;
+    background: #999;
+}
+.oauth-login-box{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.oauth-login-box button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.oauth-login-box .google{
+    background: #fff;
+    color: #000;
+}
+.oauth-login-box .google .ico{
+    background: url("../source/image/ico/ico_google.png") no-repeat center/25px 25px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.oauth-login-box .kakao{
+    background: #FEE500;
+    color: #191919;
+}
+.oauth-login-box .kakao .ico{
+    background: url("../source/image/ico/ico_kakao.svg") no-repeat center/25px 25px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    opacity: 0.9;
+}
+.oauth-login-box .naver{
+    background: #03C75A;
+}
+.oauth-login-box .naver .ico{
+    background: url("../source/image/ico/ico_naver.png") no-repeat center/25px 25px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    filter: brightness(0) saturate(100%) invert(1);
+}
+.content-right{
+    width: 55%;
+    background: url("../source/image/login_banner.png") no-repeat center/100% 100%; 
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.content-right::before{
+    width: 100%;
+    height: 100%;
+}

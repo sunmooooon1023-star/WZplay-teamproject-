@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/community_modal.css">
+</head>
+<body>
+
+    <!-- 글쓰기 모달 -->
+    <div id="postWriteModal" class="post-modal">
+        <button class="close-btn"><span class="ico"></span></button>
+        <div class="post-form">
+            <div class="form-content-box write-title-area">
+                <span class="modal-area-title">제목</span>
+                <input type="text" placeholder="제목을 입력해주세요" id="title" required>
+            </div>
+            <div class="form-content-box write-category-area">
+                <div class="tag-box">
+                    <span class="modal-area-title">태그</span>
+                    <input type="text" placeholder="태그를 입력해주세요" id="tag">
+                </div>
+                <div class="category-box">
+                    <span class="modal-area-title">카테고리</span>
+                    <div class="category-selector">
+                        <span class="selected-category">잡담</span>
+                        <span class="ico"></span>
+                    </div>
+                    <ul class="category-list">
+                        <li><span>잡담</span></li>
+                        <li><span>유머</span></li>
+                        <li><span>성지순례</span></li>
+                        <li><span>감상평</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-content-box post-write-area">
+                <span class="modal-area-title">내용</span>
+                <div id="toolbar">
+                      <select class="ql-size">
+                        <option value="small"></option>
+                        <option selected></option>
+                        <option value="large"></option>
+                        <option value="huge"></option>
+                    </select>
+                    <span class="ql-formats">
+                        <button class="ql-bold"></button>
+                        <button class="ql-italic"></button>
+                        <button class="ql-underline"></button>
+                    </span>
+                    <span class="ql-formats">
+                        <button class="ql-image"></button>
+                        <button class="ql-video"></button>
+                    </span>
+                </div>
+                <div id="editor"></div>
+            </div>
+            <div class="form-content-box post-btn-box">
+                <button class="post-btn cancel-btn">취소</button>
+                <button class="post-btn upload-btn" id="uploadBtn">등록</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- 글 읽기 모달 -->
+    <div id="postDetailModal" class="post-modal">
+        <button class="close-btn"><span class="ico"></span></button>
+        <div class="post-form">
+            <div class="form-content-box detail-title-area">
+                <span class="post-category">
+                    <!-- 동적 렌더링 -->
+                </span>
+                <p class="modal-area-title">
+                    <!-- 동적 렌더링 -->
+                </p>
+                <div class="socials">
+                    <span class="ico naver"></span>
+                    <span class="ico X"></span>
+                    <span class="ico insta"></span>
+                    <span class="ico kakao"></span>
+                </div>
+            </div>
+            <div class="form-content-box detail-content-area">
+                <div class="content-info-box">
+                    <!-- 동적 렌더링 -->
+                </div>
+                <div class="content-main-box">
+                    <!-- 동적 렌더링 -->
+                </div>
+            </div>
+            <div class="form-content-box detail-btn-area">
+                <div class="reaction-btn-list">
+                    <!-- 동적 렌더링 -->
+                </div>
+                <div class="util-btn-list">
+                    <button class="write-btn"><span>글쓰기</span></button>
+                    <button class="update-btn"><span>수정하기</span></button>
+                    <button class="delete-btn"><span>삭제하기</span></button>
+                </div>
+            </div>
+            <div class="form-content-box detail-comment-area">
+                <form class="comment-input-form">
+                    <div>
+                        <span class="comment-notice">※ 비방 · 욕설 · 도배 등 게시물을 방해하거나 게시물과 무관한 댓글은 삭제될 수 있습니다.</span>
+                        <div>
+                            <span class="comment-count">
+                                <!-- 동적 렌더링 -->
+                            </span>
+                            <span>Comments</span>
+                        </div>
+                    </div>
+                    <div class="comment-input-box">
+                        <label for="commentInput">댓글</label>
+                        <input type="text" name="commentInput" id="commentInput" placeholder="댓글 남기기">
+                        <button type="submit"><span>등록</span></button>
+                    </div>
+                </form>
+                <ul class="comment-list">
+                    <!-- 동적 렌더링 -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 릴스 디테일 모달 -->
+    <div id="reelsDetailModal" class="post-modal">
+        <button class="close-btn"><span class="ico"></span></button>
+        <div class="reels-form">
+            <div class="reels-form-left">
+                <!-- 동적 렌더링 -->
+            </div>
+            <div class="reels-form-right">
+                <div class="reels-form-content">
+                    <!-- 동적 렌더링 -->
+                </div>
+                <div class="reels-form-comment">
+                    <form class="comment-input-form">
+                        <div>
+                            <span class="comment-notice">※ 비방 · 욕설 · 도배 등 게시물을 방해하거나 게시물과 무관한 댓글은 삭제될 수 있습니다.</span>
+                            <div>
+                                <span class="comment-count">
+                                    <!-- 동적 렌더링 -->
+                                </span>
+                                <span>Comments</span>
+                            </div>
+                        </div>
+                        <div class="comment-input-box">
+                            <label for="commentInput">댓글</label>
+                            <input type="text" name="commentInput" id="commentInput" placeholder="댓글 남기기">
+                            <button type="submit"><span>등록</span></button>
+                        </div>
+                    </form>
+                    <ul class="comment-list">
+                        <!-- 동적 렌더링 -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 블록 모달 -->
+    <div id="blockModal" class="block-modal">
+        <button class="close-btn"><span class="ico"></span></button>
+        <p>프리미어 옵션을 구매해서 더 많은 혜택을 누리세요!</p>
+        <a href="/store_wz.html">결제하기</a>
+    </div>
+</body>
+</html>

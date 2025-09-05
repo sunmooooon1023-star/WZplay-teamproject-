@@ -1,0 +1,1348 @@
+[
+  {
+    "title": "위즈x슬램덩크 20주년 티셔츠",
+    "id": "p-slamdunk-shirts",
+    "summary": "농구 코트 위의 전설, 슬램덩크와 위즈의 특별한 20주년 기념 티셔츠입니다. 어디에나 어울리는 팬심 충만 티셔츠로 덕심을 자신 있게 드러내 보세요.",
+    "images": [
+      {
+        "src": "./source/image/store_img/t-shirts/slamdunk5.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/slamdunk3.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/slamdunk6.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/slamdunk8.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#슬램덩크",
+      "#강백호",
+      "#티셔츠",
+      "#남녀공용",
+      "#오타쿠패션",
+      "#20주년",
+      "#위즈와함께",
+      "#콜라보상품"
+    ],
+    "discountPercent": 8,
+    "price": 65000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/t-shirts/slamdunk5.png",
+        "p": [
+          "실제 착용샷으로 보는 슬램덩크 감성",
+          "뒷면 프린트 디테일까지 자신 있게 보여주는 포인트"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/t-shirts/slamdunk6.png",
+        "p": [
+          "전·후면 모두 완벽한 팬심 디자인",
+          "어디서 봐도 슬램덩크 덕심 충만"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/t-shirts/slamdunk8.png",
+        "p": [
+          "블랙 컬러로 더 강렬하게, 더 스타일리시하게",
+          "팬심과 패션을 동시에 만족시키는 올블랙 감성"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/t-shirts/slamdunk8.png" }
+    ]
+  },
+  {
+    "title": "위즈x원피스 남녀공용 반팔 티셔츠",
+    "id": "p-onepiece-shirts",
+    "summary": "루피와 동료들의 모험심을 담아낸 원피스 콜라보 티셔츠입니다. 일상에서도 포인트 아이템으로 손색없는 특별한 굿즈입니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/t-shirts/onepiece4.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/onepiece5.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/onepiece1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/onepiece2.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#원피스",
+      "#원피스루피",
+      "#티셔츠",
+      "#남녀공용",
+      "#오타쿠패션",
+      "#20주년",
+      "#위즈와함께",
+      "#콜라보상품"
+    ],
+    "discountPercent": 13,
+    "price": 33000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/t-shirts/onepiece4.png",
+        "p": [
+          "앞·뒤로 가득 담긴 원피스 감성",
+          "팬심을 일상에 그대로 입히는 디자인"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/t-shirts/onepiece1.png",
+        "p": [
+          "부드럽고 탄탄한 원단으로 착용감 업그레이드",
+          "여름에도 산뜻하게, 사계절 활용 만점"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/t-shirts/onepiece2.png",
+        "p": [
+          "탄탄한 라운드 넥으로 오래 입어도 변형 최소화",
+          "캐주얼한 핏을 완성하는 깔끔한 디테일"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/t-shirts/onepiece4.png" }
+    ]
+  },
+  {
+    "title": "진격의 거인 조사병단 티셔츠",
+    "id": "p-attackontitan-shirts",
+    "summary": "벽 너머의 자유를 향해 싸우는 조사병단의 상징을 담은 티셔츠입니다. 진격의 거인의 웅장함과 긴장감을 일상 속에서도 느껴보세요.",
+    "images": [
+      {
+        "src": "./source/image/store_img/t-shirts/attackontitan.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/attackontitan2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/attackontitan1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/attackontitan3.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#진격의 거인",
+      "#조사병단",
+      "#티셔츠",
+      "#남녀공용",
+      "#오타쿠패션",
+      "#20주년",
+      "#위즈와함께",
+      "#콜라보상품"
+    ],
+    "discountPercent": 22,
+    "price": 69000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/t-shirts/attackontitan3.png",
+        "p": [
+          "조사병단의 상징을 세련된 네이비 컬러에 담다",
+          "앞·뒤 모두 살아있는 디테일로 팬심 완벽 표현"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/t-shirts/attackontitan2.png",
+        "p": [
+          "블랙 컬러로 더 강렬하게, 자유의 날개가 빛나다",
+          "어디서든 어울리는 올블랙 감성"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/t-shirts/onepiece1.png",
+        "p": [
+          "탄탄한 원단으로 오래 입어도 흐트러짐 없는 핏",
+          "부드럽고 편안한 착용감, 전투(?)에도 문제없음"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/t-shirts/attackontitan3.png" }
+    ]
+  },
+  {
+    "title": "짱구 커플티 남녀공용",
+    "id": "p-sinjang-shirts",
+    "summary": "짱구는 못말려의 바보 커플이 입던 그 티셔츠! 저렴한 가격과 높은 활용도로 ‘가성비 굿즈’라 불릴 만큼 만족도가 높은 아이템이에요",
+    "images": [
+      {
+        "src": "./source/image/store_img/t-shirts/sinjang_t.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/sinjang_t2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/sinjang_t3.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/t-shirts/sinjang_t4.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#크레용신짱",
+      "#짱구는못말려",
+      "#티셔츠",
+      "#커플티",
+      "#오타쿠패션",
+      "#20주년",
+      "#위즈와함께",
+      "#콜라보상품"
+    ],
+    "discountPercent": 10,
+    "price": 19000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/t-shirts/sinjang_t.png",
+        "p": [
+          "짱구 커플티, 남녀가 함께 입으면 귀여움 배가",
+          "실생활에서도 자연스럽게 팬심 표현 가능"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/t-shirts/sinjang_t2.png",
+        "p": [
+          "커플끼리 매칭하기 좋은 착용샷",
+          "어디서든 주목받는 사랑스러운 컬러와 디자인"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/t-shirts/sinjang_t4.png",
+        "p": [
+          "부드러운 30수 코튼으로 하루 종일 편안함",
+          "깔끔한 박음질과 탄탄한 네크라인으로 내구성 강화"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/t-shirts/sinjang_t3.png" }
+    ]
+  },
+  {
+    "title": "위즈 메신저백",
+    "id": "p-message-bag",
+    "summary": "실용성과 디자인을 모두 잡은 위즈의 시그니처 메신저백입니다. 실용적이면서도 개성을 살리고 싶은 분들에게 강력 추천합니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/bag/message_bag0.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/message_bag1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/message_bag2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/message_bag3.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#굿즈전용",
+      "#메신저백",
+      "#데일리가방",
+      "#남녀공용",
+      "#오타쿠패션",
+      "#위즈시그니처",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 22,
+    "price": 22000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/bag/message_bag0.png",
+        "p": [
+          "깔끔한 디자인과 넉넉한 수납 공간으로 일상과 출퇴근에 최적화된 메신저백.",
+          "필수 소지품을 정리하기 쉽고, 어디서든 세련된 룩을 완성합니다."
+        ]
+      },
+      {
+        "img": "./source/image/store_img/bag/message_bag2.png",
+        "p": [
+          "고급 코튼 소재로 가볍고 편안한 착용감을 제공합니다.",
+          "고해상도 프린트와 섬세한 마감으로 디테일까지 꼼꼼하게 신경썼습니다."
+        ]
+      },
+      {
+        "img": "./source/image/store_img/bag/message_bag3.png",
+        "p": [
+          "화이트, 블랙, 아이보리 등 취향에 맞게 선택 가능.",
+          "각 색상마다 다른 분위기를 연출할 수 있어 일상 코디에 다양하게 활용됩니다."
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/bag/message_bag0.png" }
+    ]
+  },
+  {
+    "title": "위즈 미니크로스백",
+    "id": "p-cross-bag",
+    "summary": "작지만 알찬 수납력을 자랑하는 위즈 미니크로스백은 간단한 외출이나 행사장에서도 부담 없이 메기 좋은 아이템입니다. 어떤 스타일에도 매치가 쉬워 데일리 패션은 물론 특별한 날에도 빛을 발합니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/bag/cross_bag.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/cross_bag1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/cross_bag2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/cross_bag3.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#굿즈전용",
+      "#크로스백",
+      "#데일리가방",
+      "#남녀공용",
+      "#오타쿠패션",
+      "#위즈시그니처",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 22,
+    "price": 22000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/bag/cross_bag.png",
+        "p": [
+          "작지만 알찬 수납력으로 외출용 필수품을 깔끔하게 정리할 수 있습니다.",
+          "심플하고 세련된 디자인으로 데일리룩과 특별한 날 모두 자연스럽게 매치됩니다."
+        ]
+      },
+      {
+        "img": "./source/image/store_img/bag/cross_bag1.png",
+        "p": [
+          "내부 공간 활용이 뛰어나, 스마트폰·지갑·간단한 소지품까지 수납 가능.",
+          "실제 착용 시 느낌과 수납 용량을 쉽게 확인할 수 있습니다."
+        ]
+      },
+      {
+        "img": "./source/image/store_img/bag/cross_bag2.png",
+        "p": [
+          "S부터 XL까지, 내게 딱 맞는 선택 가능!",
+          "작든 크든 상관없어요—모두를 위한 옵션 제공."
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/bag/cross_bag.png" }
+    ]
+  },
+  {
+    "title": "위즈시그니처 백팩",
+    "id": "p-back-bag",
+    "summary": "위즈시그니처 백팩은 학생부터 직장인까지 누구에게나 어울리는 다용도 아이템입니다. 높은 기능성으로 남녀노소 부담 없이 착용할 수 있습니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/bag/backpack.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/backpack1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/backpack2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/backpack8.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#굿즈전용",
+      "#백팩",
+      "#학생가방",
+      "#남녀공용",
+      "#오타쿠패션",
+      "#위즈시그니처",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 22,
+    "price": 33000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/bag/backpack.png",
+        "p": [
+          "학생이든 직장인이든 OK—모든 일상에 자연스럽게 어울림.",
+          "심플하지만 포인트는 확실히—오늘의 패션 퀘스트 클리어!"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/bag/backpack4.png",
+        "p": [
+          "비 오는 날도 걱정 끝—방수 처리로 안전하게 보호.",
+          "가벼운 비에도 걱정 없이, 하루 종일 편안한 버프 유지!"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/bag/backpack1.png",
+        "p": [
+          "블랙, 아이보리, 핑크, 파랑—취향대로 골라요!",
+          "모든 색상, 모든 사이즈—나만의 스타일 완성!"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/bag/backpack8.png" }
+    ]
+  },
+  {
+    "title": "위즈 에코백",
+    "id": "p-echo-bag",
+    "summary": "가볍고 활용도 높은 위즈 에코백은 데일리룩에 자연스럽게 어울리며, 환경까지 생각한 친환경 제품입니다. 부담 없이 들고 다니기 좋아 학생과 직장인 모두에게 추천할 만한 머스트 해브 아이템입니다. 위즈만의 감성을 담아 일상 속 개성을 표현해보세요.",
+    "images": [
+      {
+        "src": "./source/image/store_img/bag/echo_bag.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/echo_bag1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/echo_bag2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/bag/echo_bag3.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#굿즈전용",
+      "#에코백",
+      "#데일리가방",
+      "#친환경제품",
+      "#뱃지전용",
+      "#위즈시그니처",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 22,
+    "price": 10000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/bag/echo_bag.png",
+        "p": [
+          "가볍고 깔끔, 들고만 있어도 센스 폭발",
+          "친환경 소재라 지구도 같이 웃는 느낌"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/bag/echo_bag1.png",
+        "p": [
+          "어깨에 걸치든 손에 들든, 자유롭게 코디 가능",
+          "학교든 회사든 카페든 어디서나 시선 강탈"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/bag/echo_bag2.png",
+        "p": [
+          "화이트, 블랙, 레드, 오렌지—취향대로 선택 가능",
+          "데일리룩 어디에나 척척 매치되는 만능 에코백"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/bag/echo_bag.png" }
+    ]
+  },
+  {
+    "title": "위즈x4월은 너의 거짓말",
+    "id": "p-april-dolls",
+    "summary": "감성을 자극하는 ‘4월은 너의 거짓말’과 위즈의 특별한 콜라보 굿즈입니다. 디테일한 마감과 고급스러운 퀄리티 덕분에 컬렉션 아이템으로 손색이 없으며, 팬이라면 절대 놓칠 수 없는 한정판 아이템입니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/rag-dolls/april.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/april1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/april2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/brown3.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#4월은너의거짓말",
+      "#넨도로이드",
+      "#일코굿즈",
+      "#피규어",
+      "#오타쿠굿즈",
+      "#위즈콜라보",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 5,
+    "price": 125000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/rag-dolls/april.png",
+        "p": [
+          "정면에서 바라보는 귀여움, 보는 순간 마음 강탈",
+          "디테일 하나하나 놓치지 않은 퀄리티, 소장 욕구 상승"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/april1.png",
+        "p": [
+          "옆모습과 뒤태까지 완벽하게 구현, 어느 각도에서 봐도 사랑스러움",
+          "책상 위, 선반 위 어디에 둬도 존재감 100%"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/april2.png",
+        "p": [
+          "교체 가능한 파츠로 다양한 표정과 포즈 연출 가능",
+          "자유롭게 꾸며 나만의 인형 스토리 완성"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "원작 보러가기🏃‍♀️" },
+      { "href": "/content-detail.html?query=ani-13" },
+      { "bgImage": "./source/image/store_img/rag-dolls/april.png" }
+    ]
+  },
+  {
+    "title": "괴담출근 브라운 인형",
+    "id": "p-brown-dolls",
+    "summary": "‘괴담출근’ 속 귀여운 브라운 캐릭터가 인형으로 탄생했습니다. 폭신한 촉감과 귀여운 디테일로 하루의 피곤함을 달래주는 든든한 친구가 되어줄 인형입니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/rag-dolls/brown.jpg",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/brown1.jpg",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/brown5.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/brown4.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#괴담출근",
+      "#폼폼토끼",
+      "#착한친구",
+      "#봉제인형",
+      "#오타쿠굿즈",
+      "#위즈콜라보",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 5,
+    "price": 39000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/rag-dolls/brown.jpg",
+        "p": [
+          "폭신폭신한 촉감, 보는 순간 마음까지 포근해짐",
+          "책상 위든 침대 위든, 하루 피로를 달래주는 든든한 친구"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/brown5.png",
+        "p": [
+          "철사 뼈대로 자유롭게 포즈 변경 가능",
+          "내 마음대로 꾸며 나만의 브라운 연출 가능"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/brown4.png",
+        "p": [
+          "큰 브라운과 작은 브라운, 두 가지 사이즈로 선택 가능",
+          "책상 위 미니 친구, 침대 위 덩치 큰 친구, 상황에 맞춰 함께하기"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/rag-dolls/brown.png" }
+    ]
+  },
+  {
+    "title": "방가방가 햄토리 먹보 피규어",
+    "id": "p-hamtori-dolls",
+    "summary": "추억 속 그때 그 시절을 소환하는 방가방가 햄토리 먹보 피규어입니다. 앙증맞은 디테일과 귀여운 표정으로 유쾌한 에너지를 전해드립니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/rag-dolls/hamtori.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/hamtori1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/hamtori2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/hamtori3.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#방가방가햄토리",
+      "#넨도로이드",
+      "#일코굿즈",
+      "#피규어",
+      "#추억상품",
+      "#위즈콜라보",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 20,
+    "price": 54000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/rag-dolls/hamtori.png",
+        "p": [
+          "작은 눈망울에 울먹임 가득, 안아주고 싶은 귀여움",
+          "주저앉은 모습도 매력 포인트, 소장 욕구 상승"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/hamtori1.png",
+        "p": [
+          "평범한 포즈에서도 귀여움 폭발, 어디 두든 포인트",
+          "책상 위든 선반 위든, 보는 순간 미소 유발"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/hamtori2.png",
+        "p": [
+          "해바라기씨 더미와 함께하는 즐거운 표정, 유쾌함 가득",
+          "다양한 소품과 함께 연출 가능, 나만의 햄토리 완성"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/rag-dolls/hamtori" }
+    ]
+  },
+  {
+    "title": "사카모토 데이즈 신 인형",
+    "id": "p-sakamotodaz-dolls",
+    "summary": "카리스마와 귀여움이 공존하는 사카모토 데이즈 ‘신’ 캐릭터가 봉제인형으로 재탄생했습니다. 방 안의 인테리어 포인트는 물론 포근한 힐링 아이템으로도 완벽합니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/rag-dolls/sakamotodaz1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/sakamotodaz2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/sakamotodaz3.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/sakamotodaz4.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#사카모토데이즈",
+      "#신인형",
+      "#마피아인형",
+      "#봉제인형",
+      "#오타쿠굿즈",
+      "#위즈콜라보",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 11,
+    "price": 77000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/rag-dolls/sakamotodaz1.png",
+        "p": [
+          "여러 신 인형이 한자리에, 보는 것만으로 즐거움 가득",
+          "컬렉션 욕구 폭발, 나만의 사카모토 데이즈 라인업 완성 가능"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/sakamotodaz2_vactor.png",
+        "p": [
+          "한 눈에 반하는 카리스마와 귀여움 공존",
+          "책상 위 포인트 아이템, 방 안 분위기 한층 업그레이드"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/sakamotodaz_vactor.png",
+        "p": [
+          "포근한 질감과 디테일, 안아주고 싶은 매력",
+          "하루의 피로를 달래주는 힐링 친구"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/rag-dolls/sakamotodaz1.png" }
+    ]
+  },
+  {
+    "title": "K.D.H 더피&까치 솜인형",
+    "id": "p-kdh-dolls",
+    "summary": "K-팝 덕심과 귀여움의 정점을 찍는 K.D.H 더피&까치 솜인형입니다. 귀여움과 개성이 동시에 살아 있는 굿즈를 원한다면 강력 추천합니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/rag-dolls/kdh.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/kdh1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/kdh2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/kdh3.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#케이팝데몬헌터스",
+      "#더피인형",
+      "#금주잇템",
+      "#봉제인형",
+      "#오타쿠굿즈",
+      "#위즈시그니처",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 0,
+    "price": 89000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/rag-dolls/kdh.png",
+        "p": [
+          "더피와 까치가 함께, 귀여움 두 배",
+          "한눈에 보는 조합, 컬렉션 욕구 폭발"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/kdh1.png",
+        "p": [
+          "까치만의 개성 넘치는 표정과 포즈",
+          "책상 위나 선반 위에서 포인트 역할 톡톡"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/kdh2.png",
+        "p": [
+          "더피의 앙증맞은 디테일과 귀여움",
+          "안아주고 싶은 매력, 보는 순간 미소"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/bg_kdh.jpg" }
+    ]
+  },
+  {
+    "title": "헌터X위즈X헌터 곤&키르아 인형",
+    "id": "p-hxh-dolls",
+    "summary": "헌터x헌터의 명콤비, 곤과 키르아가 귀여운 봉제인형으로 찾아왔습니다. 개성과 분위기를 살린 디테일로 덕심을 제대로 보여줄 수 있는 필수 굿즈입니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/rag-dolls/hxh.jpg",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/hxh1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/hxh2.jpg",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/rag-dolls/hxh2_vactor.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#헌터x헌터",
+      "#곤키르아",
+      "#귀염둥이",
+      "#봉제인형",
+      "#오타쿠굿즈",
+      "#위즈콜라보",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 8,
+    "price": 138000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/rag-dolls/hxh.jpg",
+        "p": [
+          "해맑은 에너지 그대로 담긴 곤 인형",
+          "방 안에 두면 순식간에 활기 업!"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/hxh1.png",
+        "p": [
+          "눈빛까지 살아있는 디테일, 곤의 매력 집중 포착",
+          "덕심 포인트 뿜뿜, 보는 순간 미소"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/rag-dolls/hxh2.jpg",
+        "p": [
+          "시크한 매력으로 분위기 압도하는 키르아",
+          "책상 위 힐링템, 까칠함마저 귀여움으로 변신"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/rag-dolls/hxh.png" }
+    ]
+  },
+  {
+    "title": "봇치더락 결속밴드",
+    "id": "p-botchi-acc",
+    "summary": "친구들과의 특별한 순간을 더욱 끈끈하게 이어줄 봇치더락 결속밴드입니다. 가볍고 착용감이 좋아 우정템이나 커플 아이템으로도 제격입니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/acc/botchi.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/acc/botchi.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/acc/botchi.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/acc/botchi.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#봇치더락",
+      "#결속밴드",
+      "#결속목걸이",
+      "#우정템",
+      "#오타쿠굿즈",
+      "#위즈콜라보",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 13,
+    "price": 15000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/acc/botchi.png",
+        "p": [
+          "심플하면서도 특별한 디자인, 어디에나 어울리는 결속밴드",
+          "봇치더락 감성을 그대로 담은 머스트해브 아이템"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/acc/botchi1.png",
+        "p": [
+          "가볍게 차도 스타일 완성, 일상 속 포인트 업",
+          "우정템·커플템으로 함께하면 더 특별해지는 순간"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/acc/botchi2.png",
+        "p": [
+          "작고 가벼워 휴대성 만점, 언제든 손쉽게 착용 가능",
+          "한눈에 느껴지는 퀄리티, 선물용으로도 딱 좋은 선택"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./content-detail.html?query=ani-07" },
+      { "bgImage": "./source/image/store_img/acc/botchi2.png" }
+    ]
+  },
+  {
+    "title": "세일러문 30주년 한정 팬던트",
+    "id": "p-sailormoon-acc",
+    "summary": "세일러문 30주년을 기념하여 출시된 한정판 팬던트입니다. 달의 요정 감성을 고스란히 담아낸 디자인으로 세일러문과 함께한 추억을 간직하기에 가장 좋은 선택입니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/acc/saliormoon.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/acc/saliormoon1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/acc/saliormoon2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/acc/saliormoon3.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#달의요정",
+      "#세일러문",
+      "#정의의이름으로",
+      "#우정템",
+      "#오타쿠굿즈",
+      "#30주년",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 20,
+    "price": 59000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/acc/saliormoon.png",
+        "p": [
+          "세일러문 30주년을 기념하는 스페셜 아이템",
+          "한눈에 반짝이는 달빛 감성, 추억을 품은 팬던트"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/acc/saliormoon2.png",
+        "p": [
+          "정교한 커스텀 디테일, 세일러문의 세계를 손안에",
+          "빛에 따라 달라지는 반짝임, 소장욕구 제대로 자극"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/acc/saliormoon3.png",
+        "p": [
+          "데일리룩에도 잘 어울리는 포인트 아이템",
+          "세일러문을 사랑하는 팬에게 최고의 선물"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/acc/saliormoon.png" }
+    ]
+  },
+  {
+    "title": "짱구는 못말려 초코비 자석",
+    "id": "p-sinjang-acc",
+    "summary": "짱구와 함께라면 지루할 틈 없는 생활! 초코비 디자인이 돋보이는 귀여운 자석으로 냉장고, 화이트보드 어디든 개성을 더할 수 있습니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/acc/sinjang.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/acc/sinjang1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/acc/sinjang2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/acc/sinjang3.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#크레용신짱",
+      "#짱구는못말려",
+      "#초코비",
+      "#열쇠고리",
+      "#오타쿠굿즈",
+      "#위즈콜라보",
+      "#위즈와함께",
+      "#탁월한선택"
+    ],
+    "discountPercent": 33,
+    "price": 16000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/acc/sinjang.png",
+        "p": [
+          "자석이지만 열고 닫는 재미까지 챙긴 아이템",
+          "초코비 박스 그대로, 손맛까지 살아있음"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/acc/sinjang1.png",
+        "p": ["초코비 패키지 감성 100% 재현", "냉장고에 붙이면 존재감 뿜뿜"]
+      },
+      {
+        "img": "./source/image/store_img/acc/sinjang2.png",
+        "p": [
+          "안쪽엔 짱구의 먹방 디테일까지 숨어있음",
+          "열 때마다 빵 터지는 반전 매력"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/acc/sinjang.png" }
+    ]
+  },
+  {
+    "title": "위즈x캐치! 티니핑 우산",
+    "id": "p-tiniping-others",
+    "summary": "비 오는 날에도 사랑스러움을 잃지 않게 해주는 위즈x티니핑 우산입니다. 하츄핑의 밝고 귀여운 에너지를 통해 어린이부터 성인까지 모두 즐겁게 사용할 수 있습니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/others/tiniping.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/others/tiniping1.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 80%)"
+      },
+      {
+        "src": "./source/image/store_img/others/tiniping2.png",
+        "gradient": "radial-gradient(#fff 20%, #fff 90%)"
+      },
+      {
+        "src": "./source/image/store_img/others/tiniping3.png",
+        "gradient": "radial-gradient(#fff 10%, #fff 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#캐치티니핑",
+      "#사랑의하츄핑",
+      "#하츄핑",
+      "#유아용우산",
+      "#캐릭터우산",
+      "#핑크색우산",
+      "#안전지킴이",
+      "#베스트선물"
+    ],
+    "discountPercent": 5,
+    "price": 33000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/others/tiniping1.png",
+        "p": [
+          "하츄핑이 활짝 핀 듯한 사랑스러운 전면 디자인",
+          "비 오는 날도 기분까지 화사해지는 비주얼"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/others/tiniping2.png",
+        "p": [
+          "로고 하나만으로도 존재감 만점",
+          "티니핑 덕후라면 놓칠 수 없는 포인트"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/others/tiniping3.png",
+        "p": [
+          "투명한 소재로 시야 확보까지 완벽",
+          "안전과 귀여움을 동시에 챙긴 착한 우산"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "위즈 신작 보러가기🏃‍♀️" },
+      { "href": "./home.html" },
+      { "bgImage": "./source/image/store_img/others/tiniping1.png" }
+    ]
+  },
+  {
+    "title": "위즈x장송의 프리렌 이어폰",
+    "id": "AVIOTxWZ",
+    "summary": "감성과 기술이 만난 위즈x장송의 프리렌 무선 이어폰입니다. 고음질 사운드와 안정적인 착용감으로 일상과 팬심을 동시에 만족시키는 프리미엄 아이템입니다.",
+    "images": [
+      {
+        "src": "./source/image/store_img/others/aviot_w.webp",
+        "gradient": "radial-gradient(#fff 20%, #7ad3d1 80%)"
+      },
+      {
+        "src": "./source/image/store_img/others/aviot_p.webp",
+        "gradient": "radial-gradient(#fff 20%, #ffa9b5 80%)"
+      },
+      {
+        "src": "./source/image/store_img/others/aviot_g.webp",
+        "gradient": "radial-gradient(#fff 10%, #d8ebac 50%)"
+      },
+      {
+        "src": "./source/image/store_img/others/aviot_b.webp",
+        "gradient": "radial-gradient(#fff 10%, #2a2a2a 50%)",
+        "textOnDark": true
+      }
+    ],
+    "colorSwatches": ["#ffffff", "#FF8F95", "#056800", "#121212"],
+    "tags": [
+      "#AVIOT",
+      "#무선이어폰",
+      "#블루투스",
+      "#이어폰",
+      "#시그니처",
+      "#Extension",
+      "#위즈플레이",
+      "#굿즈"
+    ],
+    "discountPercent": 17,
+    "price": 243000,
+    "options": [
+      { "label": "Metalic Black", "priceDelta": 0 },
+      { "label": "pure white", "priceDelta": 0 },
+      { "label": "burgundy red", "priceDelta": 0 },
+      { "label": "melo orange", "priceDelta": 0 }
+    ],
+    "itemTexts": [
+      {
+        "img": "./source/image/store_img/others/aviot_w.webp",
+        "p": [
+          "깔끔하게 담아낸 프리렌 무드",
+          "순수함과 세련미를 동시에 챙긴 전면 디자인"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/others/aviot_g.webp",
+        "p": [
+          "열리는 순간, 몰입감 있는 사운드의 세계로",
+          "프리미엄 이어폰의 진가를 보여주는 디테일"
+        ]
+      },
+      {
+        "img": "./source/image/store_img/others/aviot_b.webp",
+        "p": [
+          "콤팩트 케이스 구성으로 휴대성 업그레이드",
+          "가볍게 들고 다니는 또 하나의 만족 포인트"
+        ]
+      }
+    ],
+    "ad": [
+      { "label": "원작 보러가기🏃‍♀️" },
+      { "href": "/content-detail.html?query=ani-15" },
+      { "bgImage": "./source/image/store_img/bg_friren.webp" }
+    ]
+  }
+]

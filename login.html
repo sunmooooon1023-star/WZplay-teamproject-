@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 | WZ</title>
+    <link rel="icon" type="image/png" href="source/image/favicon.png" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.7/kakao.min.js" integrity="sha384-tJkjbtDbvoxO+diRuDtwRO9JXR7pjWnfjfRn5ePUpl7e7RJCxKCwwnfqUAdXh53p" crossorigin="anonymous"></script>
+    <script type="module" src="./js/login/kakao_auth.js"></script>
+    <script type="module" src="./js/layout.js"></script>
+    <script type="module" src="./js/login/login.js" defer></script>
+</head>
+<body>
+    <div class="login-wrapper">
+        <header id="mainHeader" class="main-header-container"></header>
+        <div class="login-container">
+            <div class="content-left">
+                <div class="content-box">
+                    <h2>로그인</h2>
+                        <form id="loginForm" class="login-box">
+                            <div class="form-content-box id">
+                                <label for="id">아이디</label>
+                                <input type="email" id="id" name="id">
+                            </div>
+                            <div class="form-content-box password">
+                                <label for="password">비밀번호</label>
+                                <input type="password" id="password" name="password">
+                            </div>
+                            <div class="form-content-box login">
+                                <button>로그인</button>
+                            </div>
+                        </form>
+                    <div class="util-box">
+                        <a href="#">회원가입</a>
+                        <span>|</span>
+                        <a href="#">아이디 찾기</a>
+                        <span>|</span>
+                        <a href="#">비밀번호 찾기</a>
+                    </div>
+                    <div class="line-box">
+                        <span class="line"></span>
+                        <span>또는</span>
+                        <span class="line"></span>
+                    </div>
+                    <div class="oauth-login-box">
+                        <button class="google">
+                            <span class="ico"></span>
+                            <span>Google로 시작하기</span>
+                        </button>
+                        <button class="kakao">
+                            <span class="ico"></span>
+                            <span>Kakao로 시작하기</span>
+                        </button>
+                        <button class="naver">
+                            <span class="ico"></span>
+                            <span>Naver로 시작하기</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="content-right">
+            </div>
+        </div>
+        <footer id="mainFooter" class="main-footer-wrapper"></footer>
+    </div>
+</body>
+</html>

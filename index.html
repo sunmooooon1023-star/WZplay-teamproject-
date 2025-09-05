@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WZ - 즐거움이 모이는 곳, WZPlay</title>
+    <link rel="icon" type="image/png" href="source/image/favicon.png" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/intro.css">
+</head>
+<body>
+    <div class="intro-wrapper">
+        <video id="introVideo" muted autoplay playsinline>
+            <source src="./source/video/intro.mp4" type="video/mp4">
+        </video>
+        <div class="notice">
+            <span>터치하여 소리 켜기</span>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+        const introVideo = document.getElementById("introVideo");
+
+        document.body.addEventListener("click", () => {
+            if(introVideo.muted) {
+                introVideo.muted = false;
+                introVideo.volume = 1;
+                introVideo.play();
+            }
+        });
+
+        introVideo.addEventListener("ended", () => {
+            window.location.replace("/home.html");
+        })
+        })
+
+    </script>
+</body>
+</html>

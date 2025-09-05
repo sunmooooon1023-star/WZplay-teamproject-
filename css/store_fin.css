@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+#wrap {
+    width: 1024px;
+    height: 900px;
+    margin: 80px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.orderCheck {
+    padding: 50px;
+}
+.orderCheck h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.orderCheck>p {
+    font-size: 16px;
+    color: #7a7a7a;
+    margin-bottom: 15px;
+}
+
+.orderCheck .orderWrap {
+    display: flex;
+    justify-content: left;
+   /*  background: yellowgreen; */
+}
+
+.itemSummary {
+    width: 70%;
+    display: flex;
+}
+.itemSummary figure {
+    width: 250px;
+    height: 200px;
+    background-color: #7a7a7a;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.itemArea {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 50%;
+}
+.itemArea .itemName{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.itemArea ul{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #424242;
+    padding-left: 15px;
+}
+.itemArea ul li{
+    position: relative;
+}
+.itemArea ul li::before{
+    content: '';
+    position: absolute;
+    top: 50%; left: -5%;
+    display: block;
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    background: #424242;
+}
+.sendmsgArea{
+    width: 40%;
+}
+.sendmsgArea p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.sendmsgArea  .msgInfo{
+  width: 100%;
+  min-height: 120px;           
+  padding: 12px 14px;
+  border: 1px solid #424242;
+  border-radius: 5px;
+  box-shadow: 1px 2px 4px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  font-family: "D2Coding", "D2Coding ligature", "D2Coding Nerd", Consolas, "Courier New", monospace;
+  line-height: 1.5;
+  resize: vertical;            
+  overflow: auto;             
+}
+
+/* .schedule */
+.schedule{
+    width: 100%;
+    display: flex;
+    padding: 0 50px;
+    margin-bottom: 30px;
+}
+.schedule img{
+    width: 3%; height: 3%;
+}
+.schedule p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+    padding: 0 10px;
+}
+
+
+/* .orderInfo */
+.orderInfo{
+    position: relative;
+    padding: 0 50px;
+}
+.orderInfo h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.orderInfo .infoArea{
+    padding: 50px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+.orderInfo .infoArea>div{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.orderInfo .infoArea>div>p{
+    font-size: 20px;
+    color: #121212;
+}
+.orderInfo .sendSearch p:last-child{
+    color: #0046AE;
+    text-decoration: underline;
+}
+
+
+/* 주문취소 */
+.cancel{
+    position: absolute;
+    bottom: 17%; right: 10%;
+    padding: 10px 15px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #00919F;
+    font-size: 16px;
+    color: #00919F;
+}
+
+.cancel.is-locked,
+.cancel.is-locked:hover,
+.cancel.is-locked:focus {
+  background: #BDBDBD;     
+  border-color: #BDBDBD;
+  color: #fff;
+  cursor: default;          
+  box-shadow: none;
+}
+
+/* 리뷰영역 */
+
+.review {
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #00919F;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 80px;
+    color: #fff;
+}

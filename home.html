@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WZ - 즐거움이 모이는 곳, WZPlay</title>
+    <link rel="icon" type="image/png" href="source/image/favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/home_modal.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="./js/layout.js" defer></script>
+
+    <script type="module" src="./js/home/home_init.js"></script>
+    <script type="module" src="./js/home/home_filter_menu_j.js"></script>
+    <script type="module" src="./js/home/home_swiper.js"></script>
+    <script type="module" src="./js/home/home_hover_modal.js"></script>
+    <script type="module" src="./js/home/home_iframe_player.js"></script>
+    <script type="module" src="./js/home/home_event.js"></script>
+</head>
+
+<body>
+    <div> 
+        <header id="mainHeader" class="main-header-container">
+            <div class="logo-box">
+                <h1 class="logo">
+                    <a href="/home.html">
+                        <img src="./source/image/wz_logo.png" alt="logo">
+                    </a>
+                </h1>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="/category.html">카테고리</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/community.html">커뮤니티</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/store_wz.html">스토어</a>
+                </li>
+            </ul>
+            <div class="util-box">
+                <form id="searchForm" action="/search.html" method="get" class="search-box">
+                    <label for="mainSearch">검색</label>
+                    <input id="mainSearch" class="search-input" name="query" type="text" placeholder="검색어를 입력하세요" />
+                    <button class="search-btn" type="submit"><span class="hidden">검색</span></button>
+                </form>
+                <div class="account-box">
+                    <span class="user-name">user</span>
+                    <span class="user-profile">
+                        <img src="./source/image/user.jpg" alt="profile" />
+                    </span>
+                    <div class="account-hover-box">
+                        <div class="hover-box-upper">
+                            <img src="./source/image/user.jpg" alt="profile" />
+                            <span>userName</span>
+                        </div>
+                        <div class="hover-box-nav">
+                            <ul>
+                                <li><a href="#">프로필관리</a></li>
+                                <li><a href="#">구매내역 관리</a></li>
+                                <li><a href="#">관심 콘텐츠 목록</a></li>
+                            </ul>
+                        </div>
+                        <div class="logout">
+                            <span>로그아웃</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- 메인 auto 동영상 -->
+    <section>
+        <div class="main-video">
+            <video id="bannerVideo" src="" type="video/mp4" autoplay muted loop></video>
+            <div class="main-video-inner-btn">
+                <a href="#" class="watch-btn"><img src="./source/image/ico/ico_play.png" alt="">예고보기</a>
+                <a href="#" class="more-btn"><img class="other" src="./source/image/ico/ico_info.png" alt="">상세정보</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="gradient"></div>
+
+    <section id="container">
+        <div class="list my-favorite">
+            <h2>내가 관심있는 리스트</h2>
+            <div class="swiper swiper_layout favorite_slider common">
+                <div class="swiper-wrapper" id="slide01">
+                    <!--스와이퍼 동적 렌더링 -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            
+        </div>
+
+        <div class="list recommend">
+            <div class="list-menu">
+                <h2>이건 꼭 봐야해! 이번 분기 추천작</h2>
+                <ul class="list-gnb">
+                    <li>
+                        <div class="list-contain recommend">
+                            <span class="filter-condition-display">유형</span>
+                            <div class="arrow-down"></div>
+                        </div>
+                        <ul class="sub">
+                            <li><span data-value="movie" class="category-btn">영화</span></li>
+                            <li><span data-value="drama" class="category-btn">드라마</span></li>
+                            <li><span data-value="documentary" class="category-btn">다큐</span></li>
+                            <li><span data-value="musical" class="category-btn">뮤지컬</span></li>
+                            <li><span data-value="varietyShow" class="category-btn">예능</span></li>
+                            <li><span data-value="animation" class="category-btn">애니</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="swiper swiper_layout recommend_slider common">
+                <div class="swiper-wrapper" id="slide02">
+                    <!--스와이퍼 동적 렌더링-->
+
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            
+        </div>
+
+        <div class="list trending">
+            <div class="list-menu">
+                <h2>지금 제일 인기 있는 건 뭐지? 실시간 급상승 인기작!</h2>
+                <ul class="list-gnb">
+                    <li>
+                        <div class="list-contain trending">
+                            <span class="filter-condition-display">유형</span>
+                            <div class="arrow-down"></div>
+                        </div>
+                        <ul class="sub">
+                            <li><span data-value="movie" class="category-btn">영화</span></li>
+                            <li><span data-value="drama" class="category-btn">드라마</span></li>
+                            <li><span data-value="documentary" class="category-btn">다큐</span></li>
+                            <li><span data-value="musical" class="category-btn">뮤지컬</span></li>
+                            <li><span data-value="varietyShow" class="category-btn">예능</span></li>
+                            <li><span data-value="animation" class="category-btn">애니</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="swiper swiper_layout popular_slider common">
+                <div class="swiper-wrapper" id="slide03">
+                    <!--스와이퍼 동적 렌더링 -->
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <div class="main-contents-wrapper">
+            <h2>공개 예정 콘텐츠 미리보기</h2>
+            <!-- Autoplay progress Swiper -->
+            <div class="swiper main-Autoplay-Swiper">
+                <div class="swiper-wrapper">
+                    <!-- 동적 렌더링 -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="container-grid">
+        <!-- 독점작 -->
+        <div class="grid-content-wrapper">
+            <h2>WZ Play 독점작</h2>
+            <div class="grid-container">
+                <!-- 동적 렌더링 -->
+            </div>
+        </div>
+    </section>
+
+
+    <section id="container-community-store">
+        <div class="community-section">
+            <h2>Top 5 인기글 보러가기</h2>
+            <div class="community-item">
+                <img src="../source/image/user.jpg" alt="프로필">
+                <div class="community-post-content">
+                    <div class="community-post-title"><span>탈모 완치 가능한거 앎?</span>
+                        <div class="community-post-icon">
+                            <div>
+                                <img class="heart" src="./source/image/ico/ico_hearts.png" alt="">
+                                <span>40</span>
+                            </div>
+                            <div>
+                                <img class="chat" src="./source/image/ico/ico_chat.png" alt="">
+                                <span>130</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text">
+                        진심 내가 살인 칼날보다 매끈한데 이 치료제 쓰고 머리도 나기 시작했음. 미국에선 널리 알려졌는데 한국은 식약처 등이 못해서 못 들어오다가 드디어 풀림. 이거 요즘...
+                    </div>
+                </div>
+                <div class="community-post-content-overlay-text">이야기가 궁금하다면?
+                    <div class="overlay-text-btn">
+                        <a href="/community.html">
+                            보러가기
+                            <div class="play-icon"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="community-item">
+                <img src="./source/image/user02.jpg" alt="프로필">
+                <div class="community-post-content">
+                    <div class="community-post-title"><span>지금 인천 물에 잠겨서 난리남</span>
+                        <div class="community-post-icon">
+                            <div>
+                                <img class="heart" src="./source/image/ico/ico_hearts.png" alt="">
+                                <span>23</span>
+                            </div>
+                            <div>
+                                <img class="chat" src="./source/image/ico/ico_chat.png" alt="">
+                                <span>88</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text">
+                        도로랑 지하차도 전부 침수되고 주택은 다 물난리 났대. 아까 친구랑 카페 갔는데 주차해둔 차는 이미 물에 잠기고 나랑 친구 지금 카페 옥상으로 피...
+                    </div>
+
+                </div>
+                <div class="community-post-content-overlay-text">이야기가 궁금하다면?
+                    <div class="overlay-text-btn">
+                        <a href="/community.html">
+                            보러가기
+                            <div class="play-icon"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="store-section">
+            <h2>BENEFIT <span>with</span> <span class="logo">WZ</span></h2>
+            <div class="overlay-benefit">콘텐츠만 보기에는 아쉬운 순간 <br>스토어에서 더 많은 즐길 거리를 만나 보세요</div>
+            <div class="benefit-img">
+                <div class="store-post-content-overlay-text">WZ와 콜라보한 제품이 궁금하다면?
+                    <div class="overlay-text-btn">
+                        <a href="/store_wz.html">
+                            보러가기
+                            <div class="play-icon"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <footer class="main-footer-wrapper">
+        <div class="main-footer-container">
+            <ul class="social-nav">
+                <li><a href="#" class="ico_X"><span class="hidden">X</span></a></li>
+                <li><a href="#" class="ico_facebook"><span class="hidden">페이스북</span></a></li>
+                <li><a href="#" class="ico_insta"><span class="hidden">인스타그램</span></a></li>
+                <li><a href="#" class="ico_youtube"><span class="hidden">유튜브</span></a></li>
+            </ul>
+            <ul class="footer-nav">
+                <li>회사 정보</li>
+                <li>법적 고지</li>
+                <li>이용 약관</li>
+                <li>쿠키 설정</li>
+            </ul>
+            <ul class="footer-nav">
+                <li>개인정보</li>
+                <li>고객 센터</li>
+                <li>문의하기</li>
+                <li>청소년보호정책</li>
+            </ul>
+            <ul class="footer-nav">
+                <li>공지사항</li>
+                <li>환불정책</li>
+            </ul>
+            <div class="company-info">
+                <p>상호명 : 주식회사 위즈플레이 (WZPlay Inc.)</p>
+                <p>사업자등록번호 : 123-45-67890</p>
+                <p>통신판매업신고번호 : 제2025-서울마포-0001호</p>
+                <p>주소 : 서울특별시 마포구 와우산로 123, 5층 (04000)</p>
+                <p>이메일 : contact@wzplay.com</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <div class="home-hover-modal-wrapper" id="homeHoverModalWrapper">
+        <!-- 동적 렌더링 -->
+    </div>
+
+    <div class="home-detail-modal-wrapper" id="homeDetailModalWrapper">
+        <!--동적렌더링-->
+    </div>
+</body>
+</html>
