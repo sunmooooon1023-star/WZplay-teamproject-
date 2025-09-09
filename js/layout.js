@@ -10,7 +10,7 @@ const mainHeaderAnimation = () => {
     const header = document.querySelector("#mainHeader");
     let postScrollPoint = window.pageYOffset;
 
-    if (currentPage.includes("home.html")) {
+    if (currentPage.includes("home")) {
         header.classList.add("atHome");
 
         if (postScrollPoint === 0) {
@@ -30,7 +30,7 @@ const mainHeaderAnimation = () => {
             header.classList.remove("scrollDown");
         }
 
-        if (currentPage.includes("home.html")) {
+        if (currentPage.includes("home")) {
             if (currentScrollPoint === 0) {
                 header.classList.add("onTop");
             } 
